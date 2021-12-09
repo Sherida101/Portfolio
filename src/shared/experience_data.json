@@ -1,0 +1,92 @@
+{
+  "description": "Miss Providence has worked at several accounting firms in the Caribbean. In 2021, her role as a MVC ASP.NET Intern Website Developer was enlightening. Miss Providence uses her spare time to build open source GitHub projects using newly learnt programming languages - recenGolang, Angular, Nodejs, react native applications.",
+  "header_image_path": "experience.svg",
+  "sections": [
+    {
+      "title": "Work",
+      "experiences": [
+        {
+          "title": "File Clerk, Assistant Accountant & Document Processing Clerk , Kris An Charles Investments Company Limited",
+          "company": "Kris An Charles Investments Company Limited",
+          "company_url": "https://krisancharles.com/",
+          "logo_path": "krisAnCharlesInvestments_logo.png",
+          "duration": "Jun 2019 - Aug 2019",
+          "location": "Kingston, Jamaica",
+          "description": "Filing cheque stubs, bank statements and reconciliation reports\nPosting loan payment payroll to customers’ accounts\nUpdating QuickBooks with customers’ loan disbursements, refund and rebate information\nReconciling bank statements to verify that the amount of cash reported by one’s company or company books is consistent with the amount of cash shown in bank records",
+          "color": "#0879bf"
+        },
+        {
+          "title": "Data Entry Clerk & Junior Clerk",
+          "company": "General Employees Co-operative Credit Union Limited",
+          "company_url": "https://www.geccu.com/",
+          "logo_path": "geccu_logo.png",
+          "duration": "Dec 2015 – Aug 2017; May 2018 – Aug 2018)",
+          "location": "Kingstown, St. Vincent and the Grenadines",
+          "description": "Organising the database of members who had dormant accounts\nProcessing the deposits and withdrawals requests of members",
+          "color": "#9b1578"
+        },
+        {
+          "title": "Receptionist/Typist",
+          "company": "Searchlight Newspaper",
+          "company_url": "https://searchlight.vc/",
+          "logo_path": "searchlight_logo.png",
+          "duration": "Oct 2015 – Nov 2015",
+          "location": "Kingstown, St. Vincent and the Grenadines",
+          "description": "Effectively, pleasantly and efficiently communicating with and dealing with customer queries either in person, over the phone or via email, providing them with information on advertising rates\nDealing with and resolution of customer complaints\nAnswering the telephone and routing calls to the appropriate person within the organisation\nTyping articles submitted for publication",
+          "color": "#fc1f20"
+        },
+        {
+          "title": "Administrative Assistant",
+          "company": "Healthy Lifestyles",
+          "company_url": "https://www.findyello.com/st-vincent/healthy-lifestyle/profile/",
+          "logo_path": "healthyLifestyles_logo.png",
+          "duration": "Sept 2015 – Oct 2015",
+          "location": "Kingstown, St. Vincent and the Grenadines",
+          "description": "Organising appointments, meetings, papers and office items\nDrastically increased office efficiency by spearheading a “go digital” initiative for most planning and paperwork",
+          "color": "#fc1f20"
+        }
+      ]
+    },
+    {
+      "title": "Internships",
+      "experiences": [
+        {
+          "title": "Model-View-Controller C# Website Developer Intern",
+          "company": "Loongo Company Limited",
+          "company_url": "http://www.loongogroup.com/index.php?styleid=2",
+          "logo_path": "loongo_CompanyLogo.png",
+          "location": "Suzhou, Jiangsu, China",
+          "description": "Miss Providence has collaboratively built a course learning management website application using ",
+          "color": "#ee3c26"
+        }
+      ]
+    },
+    {
+      "title": "Volunteerism",
+      "experiences": [
+        {
+          "title": "Graphic Designer Assistant & Mobile Application Developer",
+          "company": "Cupid Delights",
+          "company_url": "https://cupid-delights.netlify.app/",
+          "logo_path": "cupidDelights_logo.png",
+          "duration": "October 2021 - Present",
+          "location": "Tidworth, Wiltshire, United Kingdom",
+          "description": "Key achievements:\nBusiness Card Design\nNutritional Facts Label Design\nMenu Flyer Design\nFacebook & Google Review Post Design\nFood & Safety Management Plan Documentation\nCoconut Cake Video Marketing Material\nMobile Application Development & Testing\nScan Business Documents (per page)\nBatch Watermark Photos & Videos With Company Logo\nCleaning Schedule Creation\nChristmas Promotion Flyer Design",
+          "color": "#4285F4"
+        },
+        {
+          "title": "Developer Programme Member",
+          "company": "Github",
+          "company_url": "https://github.com/Sherida101?tab=repositories",
+          "logo_path": "github_logo.png",
+          "duration": "September 2021 - Present",
+          "location": "Work From Home",
+          "description": "Miss Providence is actively building and testing several open source projects independently and collaboratively. These projects include bug fixes and proper documentation.",
+          "color": "#181717"
+        }
+      ]
+    }
+  ],
+  "subtitle": "Work, Internship and Volunteerism",
+  "title": "Experience"
+}
