@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "portfolioWebsite",
-  "homepage": "https://Sherida101.github.io",
+  "homepage": "https://sherida101.github.io/Portfolio",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
