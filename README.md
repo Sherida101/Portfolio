@@ -21,8 +21,8 @@
 </p>
 
 <p align="center"> 
-    <a href="https://sherida101.github.io/Portfolio/" target="_blank">
-    <img src="images/portfolioWebsiteThemes.png"></img>
+    <a href="https://sherida101.github.io/Portfolio" target="_blank">
+    <img src="images/portfolioWebsiteTheme.png"></img>
   </a>
 </p>
 
@@ -38,7 +38,7 @@
 ✔️ Education\
 ✔️ Contact Details
 
-To view a live example, **[click here](https://sherida101.github.io/Portfolio/)**
+To view a live example, **[click here](https://sherida101.github.io/Portfolio)**
 
 # Clone and Use 📋
 
@@ -107,7 +107,7 @@ const openSource = {
 You can get a github token as described [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). Give all permissions while generating token. Also add your `githubUserName` in the correct field inside `git_data_fetcher.mjs`.
 Now, you need to run following command.
 
-**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
+**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hard-coding them into your programs.
 
 ```node
 node git_data_fetcher.mjs
@@ -141,7 +141,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - You can define your own favicon in `public/icons` directory. If you don't have a favicon, you can generate favicons from [Favicon Generator](https://www.favicon-generator.org/) and [Favicon IO](https://favicon.io/)
 - You can also edit your website preview (known as description image). Run your site locally, take a screenshot and replace with `public/icons/desc.png`. Note that your screenshot should be 1280x640 for better preview.
 
-# Choose Theme 🌈
+# Choose Theme
 
 - You can take a look at `src/theme.js` file where all available themes are mentioned with their respective color codes
 - At the bottom of this file you will see the below code:
@@ -166,13 +166,18 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - You may need to `git init` and force push at every new build.
 - In `package.json`, change `homepage` field to `"homepage": "https://myusername.github.io"`,
 - Install GitHub pages, `npm install --save gh-pages`
-- In GitHub pages add the following scripts where `main` is the name of branch:
+- In `package.json`, add the following scripts where `gh-pages` is the name of branch where the build code will stored:
 
   "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -b main -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+
+          * "predeploy": "npm run build",
+          * "deploy": "gh-pages -b gh-pages -d build",
+            "start": "react-scripts start",
+            "build": "react-scripts build",
+            ....
+          }
+
+- Run `npm run deploy` or `npm run deploy -m "Updated a file"` to deploy the project on GitHub pages
 
 # Technologies used 🛠️
 
@@ -186,6 +191,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 # Illustrations 🍥
 
 - [UnDraw](https://undraw.co/illustrations)
+- [Iconify design](https://icon-sets.iconify.design)
 
 # License 📄
 
@@ -201,4 +207,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # References 👏🏻
 
-- Some design and implementation ideas were taken from [Ashutosh Hathidara's Master Portfolio Project](https://github.com/Sherida101/Portfolio).
+- Some design and implementation ideas were adapted from [Ashutosh Hathidara's Master Portfolio Project](https://github.com/ashutosh1919/masterPortfolio)
