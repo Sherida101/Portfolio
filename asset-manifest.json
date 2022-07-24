@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5f35c2a2.chunk.css",
-    "main.js": "/Portfolio/static/js/main.356cd6ce.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.356cd6ce.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.1ac8be86.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c11fef2c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c11fef2c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.90fad5d3.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.90fad5d3.js.map",
-    "static/js/2.4e716f56.chunk.js": "/Portfolio/static/js/2.4e716f56.chunk.js",
-    "static/js/2.4e716f56.chunk.js.map": "/Portfolio/static/js/2.4e716f56.chunk.js.map",
+    "static/js/2.14bee670.chunk.js": "/Portfolio/static/js/2.14bee670.chunk.js",
+    "static/js/2.14bee670.chunk.js.map": "/Portfolio/static/js/2.14bee670.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.531ec4b0647bf3f97f59d7e094651720.js": "/Portfolio/precache-manifest.531ec4b0647bf3f97f59d7e094651720.js",
+    "precache-manifest.4a4a24ed0fa112252f26fc037145d966.js": "/Portfolio/precache-manifest.4a4a24ed0fa112252f26fc037145d966.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.5f35c2a2.chunk.css.map": "/Portfolio/static/css/main.5f35c2a2.chunk.css.map",
+    "static/css/main.1ac8be86.chunk.css.map": "/Portfolio/static/css/main.1ac8be86.chunk.css.map",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/Portfolio/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/Portfolio/static/media/animated_ashutosh.be4f4800.png",
@@ -47,6 +47,7 @@
     "static/media/loongo_CompanyLogo.png": "/Portfolio/static/media/loongo_CompanyLogo.0f817371.png",
     "static/media/mail.svg": "/Portfolio/static/media/mail.9eef9021.svg",
     "static/media/manOnTable.svg": "/Portfolio/static/media/manOnTable.83ac24fb.svg",
+    "static/media/mobile_development.svg": "/Portfolio/static/media/mobile_development.0eeb0cf1.svg",
     "static/media/muffito_logo.png": "/Portfolio/static/media/muffito_logo.069938a8.png",
     "static/media/nptel_logo.png": "/Portfolio/static/media/nptel_logo.95a12a2b.png",
     "static/media/portfolio.gif": "/Portfolio/static/media/portfolio.414dfbd9.gif",
@@ -54,6 +55,7 @@
     "static/media/programmer.svg": "/Portfolio/static/media/programmer.5faf790b.svg",
     "static/media/programmer2.svg": "/Portfolio/static/media/programmer2.54ab28e3.svg",
     "static/media/programmer3.svg": "/Portfolio/static/media/programmer3.93a9f82f.svg",
+    "static/media/project_management.svg": "/Portfolio/static/media/project_management.0928e2d7.svg",
     "static/media/projects_image.svg": "/Portfolio/static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "/Portfolio/static/media/pwa.71408db7.png",
     "static/media/qualified.svg": "/Portfolio/static/media/qualified.b8995de8.svg",
@@ -67,8 +69,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.90fad5d3.js",
-    "static/js/2.4e716f56.chunk.js",
-    "static/css/main.5f35c2a2.chunk.css",
-    "static/js/main.356cd6ce.chunk.js"
+    "static/js/2.14bee670.chunk.js",
+    "static/css/main.1ac8be86.chunk.css",
+    "static/js/main.c11fef2c.chunk.js"
   ]
 }

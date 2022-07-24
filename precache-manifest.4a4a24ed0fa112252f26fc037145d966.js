@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "165d787990f437159ddbf71238c2547d",
+    "revision": "c17dce08c80103b8726e9f9c55622dd0",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "a195094c10a04fca3e0c",
-    "url": "/Portfolio/static/css/main.5f35c2a2.chunk.css"
+    "revision": "986357450c567bc7f275",
+    "url": "/Portfolio/static/css/main.1ac8be86.chunk.css"
   },
   {
-    "revision": "8e33f9b0f04dcb1f1c68",
-    "url": "/Portfolio/static/js/2.4e716f56.chunk.js"
+    "revision": "478209ef51be61e3dd50",
+    "url": "/Portfolio/static/js/2.14bee670.chunk.js"
   },
   {
-    "revision": "a195094c10a04fca3e0c",
-    "url": "/Portfolio/static/js/main.356cd6ce.chunk.js"
+    "revision": "986357450c567bc7f275",
+    "url": "/Portfolio/static/js/main.c11fef2c.chunk.js"
   },
   {
     "revision": "cd5ee4e3a8fb915fd97c",
@@ -248,6 +248,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/manOnTable.83ac24fb.svg"
   },
   {
+    "revision": "0eeb0cf1ac6d2092ba6c75a95ae0b8b4",
+    "url": "/Portfolio/static/media/mobile_development.0eeb0cf1.svg"
+  },
+  {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
     "url": "/Portfolio/static/media/muffito_logo.069938a8.png"
   },
@@ -274,6 +278,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93a9f82fb45790aff1a2413a1944dfd9",
     "url": "/Portfolio/static/media/programmer3.93a9f82f.svg"
+  },
+  {
+    "revision": "0928e2d73224bc5c881dd5adbf1bf847",
+    "url": "/Portfolio/static/media/project_management.0928e2d7.svg"
   },
   {
     "revision": "b8ba948796d7ab532673c5ed2f315e74",
