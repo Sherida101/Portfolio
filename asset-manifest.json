@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1ac8be86.chunk.css",
-    "main.js": "/Portfolio/static/js/main.2d8aede0.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.2d8aede0.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.5e8557bd.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5e8557bd.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.90fad5d3.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.90fad5d3.js.map",
-    "static/js/2.14bee670.chunk.js": "/Portfolio/static/js/2.14bee670.chunk.js",
-    "static/js/2.14bee670.chunk.js.map": "/Portfolio/static/js/2.14bee670.chunk.js.map",
+    "static/js/2.2688e038.chunk.js": "/Portfolio/static/js/2.2688e038.chunk.js",
+    "static/js/2.2688e038.chunk.js.map": "/Portfolio/static/js/2.2688e038.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.6d063f0927936ba201080f8eeaeb2dbe.js": "/Portfolio/precache-manifest.6d063f0927936ba201080f8eeaeb2dbe.js",
+    "precache-manifest.587f4c5300947f72c3f0e8df3da305bf.js": "/Portfolio/precache-manifest.587f4c5300947f72c3f0e8df3da305bf.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.1ac8be86.chunk.css.map": "/Portfolio/static/css/main.1ac8be86.chunk.css.map",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
@@ -52,6 +52,7 @@
     "static/media/nptel_logo.png": "/Portfolio/static/media/nptel_logo.95a12a2b.png",
     "static/media/portfolio.gif": "/Portfolio/static/media/portfolio.414dfbd9.gif",
     "static/media/profile_image.png": "/Portfolio/static/media/profile_image.eeca2126.png",
+    "static/media/profile_image1.png": "/Portfolio/static/media/profile_image1.a521012f.png",
     "static/media/programmer.svg": "/Portfolio/static/media/programmer.5faf790b.svg",
     "static/media/programmer2.svg": "/Portfolio/static/media/programmer2.54ab28e3.svg",
     "static/media/programmer3.svg": "/Portfolio/static/media/programmer3.93a9f82f.svg",
@@ -69,8 +70,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.90fad5d3.js",
-    "static/js/2.14bee670.chunk.js",
+    "static/js/2.2688e038.chunk.js",
     "static/css/main.1ac8be86.chunk.css",
-    "static/js/main.2d8aede0.chunk.js"
+    "static/js/main.5e8557bd.chunk.js"
   ]
 }
