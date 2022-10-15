@@ -1,4 +1,3 @@
-
 /* Change this file to get your personal Porfolio */
 
 // Website related settings
@@ -10,7 +9,7 @@ const settings = {
 const seo = {
   title: "Aaliyah Providence's Portfolio",
   description:
-      "Aaliyah Providence is a recent Software Engineer graduate who has attained skills in website development, mobile application development and project management. Driven by passion, she takes pride in providing the best service and high quality software as possible.",
+    "Aaliyah Providence is a recent Software Engineer graduate who has attained skills in website development, mobile application development and project management. Driven by passion, she takes pride in providing the best service and high quality software as possible.",
   og: {
     title: "Aaliyah Providence's Portfolio",
     type: "website",
@@ -24,7 +23,7 @@ const greeting = {
   logo_name: "AaliyahProvidence",
   currentJobStatus: "Junior Software Developer",
   subTitle:
-    "Full Stack Developer with proficiency in ASP.NET, C#, Python, Django, Flask, Software Testing, project management and mobile application development among other skills.",
+    "Full Stack Developer with specialties in mobile and website application development as well as software design, project management and software testing. A quick learner with effective time management and efficient multi-tasking skills. Strong work ethic in a team or individual settings to drive product success and process efficiency proficiency.",
   cvLink:
     "https://drive.google.com/file/d/11Tqv1aLKsZV7091TQAeEKqCr9CM8-uxU/view?usp=sharing",
   portfolio_repository: "https://github.com/Sherida101/Portfolio",
@@ -67,7 +66,7 @@ const socialMediaLinks = [
     link: "https://www.facebook.com/smileysherida/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  }
+  },
 ];
 
 const skills = {
@@ -76,7 +75,7 @@ const skills = {
       title: "Database Management",
       fileName: "DBManagementImg",
       skills: [
-        "⚡ Visualise and analyse data", 
+        "⚡ Visualise and analyse data",
         "⚡ Ensure that data is collected and managed in the database",
         "⚡ Understand the business of the company",
         "⚡ Eye for detail and accuracy",
@@ -196,7 +195,7 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-         {
+        {
           skillName: "jQuery",
           fontAwesomeClassname: "cib:jquery",
           style: {
@@ -342,7 +341,7 @@ const skills = {
             color: "#FFF",
           },
         },
-            {
+        {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
@@ -363,11 +362,10 @@ const skills = {
             backgroundColor: "#000000",
             color: "#F7DF1E",
           },
-        
         },
       ],
     },
-    
+
     {
       title: "Project Management",
       fileName: "ProjectManagementImg",
@@ -411,8 +409,6 @@ const skills = {
         },
       ],
     },
-    
-
   ],
 };
 
@@ -524,7 +520,7 @@ const degrees = {
 
 const certifications = {
   certifications: [
-   {
+    {
       title:
         "Microsoft Technology Associate: Software Development Fundamentals (MTA 98-361)",
       subtitle: "May 2021",
@@ -550,7 +546,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteerism",
   description:
-    "Miss Providence has worked at several accounting firms in the Caribbean. In 2021, her role as a MVC ASP.NET Intern Website Developer was enlightening. Miss Providence uses her spare time to build open source GitHub projects using newly learnt programming languages - recenGolang, Angular, Nodejs, react native applications.",
+    "Owing to Miss Providence's endeavours, she has developed professional aptitude, strengthened her personal character and sharpened her skills. In addition, she has developed soft skills such as being a problem-solver, effective communicator, reliable, a team player and being resilient",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -564,8 +560,19 @@ const experience = {
           duration: "February 2022 - PRESENT",
           location: "Norwich, Norfolk, United Kingdom",
           description:
-            "Work in the Digital Biology department as a member of the Collaborative Open Plant Omics (COPO) team\nSupport the existing COPO code by writing unit and integration tests\nPerform quality assurance of existing and new COPO pipelines in development\nSupport assist EI, national, and international users COPO users in familiarising with the platform and perform tasks such as metadata annotation, data transfer and upload to different repositories\nPromote and support COPO to the research community by producing content for the website and social media account",
+            "Assisted the Collaborative Open Omics (COPO) research e-Infrastructure team in the Digital Biology department by developing code to test and maintain the current website service\nSupported internal and external collaborators in the use of the service\n Assisted with updates to the main project website and associated documentation\n Supported existing COPO code by writing unit and integration tests\nMaintained quality assurance of existing COPO pipelines\n Produced content to promote COPO to the research community through the COPO project web pages and social media account\n Leveraged internal stakeholders, project client and supervisor feedback as well as data to formulate a plan of action as well as to inform and guide website application development\n Managed website application with Redis, PostgreSQL and MongoDB",
           color: "#0879bf",
+        },
+        {
+          title: "Graphic Designer",
+          company: "Cupid Delights",
+          company_url: "https://cupid-delights.netlify.app/",
+          logo_path: "cupidDelights_logo.png",
+          duration: "October 2021 - January 2022",
+          location: "United Kingdom",
+          description:
+            "Created business designs like business card, nutrition facts labels for the various items sold by the business, business banner, food menu flyer, food Christmas special flyer, review posts, notices, window decal and other flyers that market the business\n Compiled videos to promote the business like a video that advertises the locations where the business' items can be purchased and videos that advertise the processes involved or how to make the food items sold by Cupid Delights\n Attached Cupid Delights' logo to the food videos and photos captured/produced by Cupid Delights",
+          color: "#4285F4",
         },
         {
           title:
@@ -576,7 +583,7 @@ const experience = {
           duration: "Jun 2019 - Aug 2019",
           location: "Kingston, Jamaica",
           description:
-            "Filed cheque stubs, bank statements and reconciliation reports\nPosted loan payment payroll to customers’ accounts\nUpdated QuickBooks with customers’ loan disbursements, refund and rebate information\nReconciled bank statements to verify that the amount of cash reported by one’s company or company books is consistent with the amount of cash shown in bank records",
+            "Filed cheque stubs, bank statements and reconciliation reports\n Posted loan payment payroll to customers' accounts\n Updated QuickBooks with customers' loan disbursements, refund and rebate information\n Reconciled bank statements to verify that the amount of cash reported by one's company or company books is consistent with the amount of cash shown in bank records",
           color: "#0879bf",
         },
         {
@@ -587,7 +594,7 @@ const experience = {
           duration: "Dec 2015 – Aug 2017; May 2018 – Aug 2018)",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
-            "Organised the database of members who had dormant accounts\nProcessed the deposits and withdrawals requests of members",
+            "Organised the database of members who had dormant accounts\n Attained Credit Union National Association certificates in Member Service and Communication, 2016\n Processed deposits and withdrawals requests of members",
           color: "#9b1578",
         },
         {
@@ -598,7 +605,7 @@ const experience = {
           duration: "Oct 2015 – Nov 2015",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
-            "Effectively, pleasantly and efficiently communicated with and dealt with customer queries either in person, over the phone or via email, provided them with information on advertising rates\nDealt with and resolved customer complaints in a professional and polite manner\nAnswered telephone calls and directed calls to appropriate parties (or took messages as appropriate) within the organisation\nProvided excellent organisational and secretarial skills to type articles submitted for publication\nMaintained a customer-focused approach whilst providing excellent verbal and communication skills",
+            "Effectively, pleasantly and efficiently communicated with and dealt with customer queries either in person, over the phone or via email, provided them with information on advertising rates\n Dealt with and resolved customer complaints in a professional and polite manner\n Answered telephone calls and directed calls to appropriate parties (or took messages as appropriate) within the organisation",
           color: "#fc1f20",
         },
         {
@@ -610,7 +617,7 @@ const experience = {
           duration: "Sept 2015 – Oct 2015",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
-            "Organised appointments, meetings, papers and office items\nDrastically increased office efficiency by spearheading a “go digital” initiative for most planning and paperwork\nAssisted with new client enquiry calls in a professional manner\nDemonstrated confidential administration when copying, scanning, binding and collating documents\nCourteously greeted and corresponded with clients and other visitors during their sojourn at the company’s office\nUndertook any other reasonable duties, commensurated with the level of the post to ensure the smooth operation of the company",
+            "Organised appointments, meetings, papers and office items\n Drastically increased office efficiency by spearheading a “go digital” initiative for most planning and paperwork\n Assisted with new client enquiry calls in a professional manner\n Demonstrated confidential administration when copying, scanning, binding and collating documents\n Courteously greeted and corresponded with clients and other visitors during their sojourn at the company's office\n Undertook any other reasonable duties, commensurated with the level of the post to ensure the smooth operation of the company",
           color: "#fc1f20",
         },
       ],
@@ -634,23 +641,12 @@ const experience = {
       title: "Volunteerism",
       experiences: [
         {
-          title: "Graphic Designer & Mobile Application Developer",
-          company: "Cupid Delights",
-          company_url: "https://cupid-delights.netlify.app/",
-          logo_path: "cupidDelights_logo.png",
-          duration: "October 2021 - Present",
-          location: "Tidworth, Wiltshire, United Kingdom",
-          description:
-            "Key achievements:\nBusiness Card Design\nFood Packaging Label Design\nMenu Flyer Design\nFacebook & Google Review Post Design\nFood & Safety Management Plan Documentation\nCoconut Cake Video Marketing Material\nMobile Application Development & Testing\nScan Business Documents (per page)\nBatch Watermark Photos & Videos With Company Logo\nCleaning Schedule Creation\nChristmas Roti Sale Flyer Design\nBusiness Banner Design\nWedding Vow Renewal & Christening Save The Date Flyer Design\nWedding Vow Renewal & Christening Invitation Flyer Design",
-          color: "#4285F4",
-        },
-        {
           title: "Open Source Project Contributor & Developer",
           company: "Github",
           company_url: "https://github.com/Sherida101?tab=repositories",
           logo_path: "github_logo.png",
           duration: "September 2021 - Present",
-          location: "Work From Home",
+          location: "",
           description:
             "Actively building, testing and publishing open source projects to GitHub both independently and collaboratively\nProjects include bug fixes and proper documentation",
           color: "#181717",
@@ -664,7 +660,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-      "The majority of Miss Providence's projects are open source and uses Object-Oriented technologies, latest technology tools. Miss Providence's best experience is building mobile applications and connecting them to databases.",
+    "The majority of Miss Providence's projects are open source and uses Object-Oriented technologies, latest technology tools. Miss Providence's best experience is building mobile applications and connecting them to databases.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -679,15 +675,16 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_image.png",
+    profile_image_path: "profile_image1.png",
     description:
-      "Aaliyah Providence is available on social media platforms - LinkedIn, Facebook, GitHub and Stack Overflow.\nSend her a message, she will reply within 24 hours. Her proficiency in website development, mobile applications development and project management will transform one's ideas into life.",
+      "Aaliyah Providence is available on social media platforms - LinkedIn, Facebook, GitHub and Stack Overflow.\nSend her a message, she will reply within 24 hours. Her proficiency in website development, mobile application development and project management will transform one's ideas into life.",
   },
   addressSection: {
     title: "Address",
     subtitle: "Norwich,\nNorfolk,\nUnited Kingdom",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/d/viewer?mid=18HEqkHzNYjfCP50TAztmt1hLS9w&hl=en&ll=52.63250308305918%2C1.2938334999999768&z=15",
+    location_map_link:
+      "https://www.google.com/maps/d/viewer?mid=18HEqkHzNYjfCP50TAztmt1hLS9w&hl=en&ll=52.63250308305918%2C1.2938334999999768&z=15",
   },
   phoneSection: {
     title: "Phone Number",

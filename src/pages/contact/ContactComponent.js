@@ -59,10 +59,10 @@ class Contact extends Component {
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 <img
-											src={require("../../assets/images/mail.svg")}
-											alt="mailbox"
+                  src={require("../../assets/images/mail.svg")}
+                  alt="mailbox"
                 />
-                 {/* <img
+                {/* <img
 											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
@@ -90,6 +90,7 @@ class Contact extends Component {
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
+                  title={phoneSection["subtitle"]}
                 >
                   {phoneSection["subtitle"]}
                 </p>
