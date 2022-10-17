@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1ac8be86.chunk.css",
-    "main.js": "/Portfolio/static/js/main.5e8557bd.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.5e8557bd.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.6104b67c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6104b67c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.90fad5d3.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.90fad5d3.js.map",
-    "static/js/2.2688e038.chunk.js": "/Portfolio/static/js/2.2688e038.chunk.js",
-    "static/js/2.2688e038.chunk.js.map": "/Portfolio/static/js/2.2688e038.chunk.js.map",
+    "static/js/2.5c41b48c.chunk.js": "/Portfolio/static/js/2.5c41b48c.chunk.js",
+    "static/js/2.5c41b48c.chunk.js.map": "/Portfolio/static/js/2.5c41b48c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.587f4c5300947f72c3f0e8df3da305bf.js": "/Portfolio/precache-manifest.587f4c5300947f72c3f0e8df3da305bf.js",
+    "precache-manifest.634f3979e63f4d6e2ffe13bb8c02da66.js": "/Portfolio/precache-manifest.634f3979e63f4d6e2ffe13bb8c02da66.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.1ac8be86.chunk.css.map": "/Portfolio/static/css/main.1ac8be86.chunk.css.map",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
@@ -17,6 +17,7 @@
     "static/media/animated_logo.svg": "/Portfolio/static/media/animated_logo.dcd6dee2.svg",
     "static/media/blogs_image.svg": "/Portfolio/static/media/blogs_image.058eca4c.svg",
     "static/media/career_progress.svg": "/Portfolio/static/media/career_progress.68cef773.svg",
+    "static/media/church_logo.png": "/Portfolio/static/media/church_logo.310b690e.png",
     "static/media/cloud_infrastructure.svg": "/Portfolio/static/media/cloud_infrastructure.cacbc42b.svg",
     "static/media/codeInLogo.png": "/Portfolio/static/media/codeInLogo.fee92c18.png",
     "static/media/contactMail.png": "/Portfolio/static/media/contactMail.5f915405.png",
@@ -41,6 +42,7 @@
     "static/media/ibm_logo.png": "/Portfolio/static/media/ibm_logo.d3fccbe1.png",
     "static/media/iiitk_logo.png": "/Portfolio/static/media/iiitk_logo.571a8584.png",
     "static/media/intel_logo.jpg": "/Portfolio/static/media/intel_logo.29152cf7.jpg",
+    "static/media/island_scholars_logo.png": "/Portfolio/static/media/island_scholars_logo.06400ff5.png",
     "static/media/jsFramework.svg": "/Portfolio/static/media/jsFramework.5b4a6449.svg",
     "static/media/krisAnCharlesInvestments_logo.png": "/Portfolio/static/media/krisAnCharlesInvestments_logo.e58cd96a.png",
     "static/media/legato_logo.png": "/Portfolio/static/media/legato_logo.c597fbde.png",
@@ -70,8 +72,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.90fad5d3.js",
-    "static/js/2.2688e038.chunk.js",
+    "static/js/2.5c41b48c.chunk.js",
     "static/css/main.1ac8be86.chunk.css",
-    "static/js/main.5e8557bd.chunk.js"
+    "static/js/main.6104b67c.chunk.js"
   ]
 }
