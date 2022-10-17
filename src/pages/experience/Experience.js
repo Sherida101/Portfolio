@@ -154,14 +154,13 @@ class Experience extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
               <br></br>
-                <br/>
+              <br />
               <div className="experience-heading-img-div">
-                
-                 <img 
-									src={require("../../assets/images/career_progress.svg")}
-									alt="career-progress"
-                /> 
-               {/*  <img 
+                <img
+                  src={require("../../assets/images/career_progress.svg")}
+                  alt="career-progress"
+                />
+                {/*  <img 
 									src={require(`../../assets/images/${experience["career_progress.svg"]}`)}
 									alt=""
 								/>  */}
@@ -184,7 +183,9 @@ class Experience extends Component {
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {experience["description"]}
+                  {experience["description"].split("\n").map((item) => (
+                    <p> {item} </p>
+                  ))}
                 </p>
               </div>
             </div>

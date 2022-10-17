@@ -1,4 +1,6 @@
-/* Change this file to get your personal Porfolio */
+/* eslint-disable */
+
+/* Change this file to get your personal Portfolio */
 
 // Website related settings
 const settings = {
@@ -80,7 +82,7 @@ const skills = {
         "⚡ Understand the business of the company",
         "⚡ Eye for detail and accuracy",
         "⚡ In-depth understanding of NoSQL and SQL",
-        "⚡ Adequate knowledge of ‘relational database management systems’ (RDBMS), ‘object oriented database management systems’ (OODBMS) and XML database management systems",
+        "⚡ Adequate knowledge of 'relational database management systems' (RDBMS), 'object oriented database management systems' (OODBMS) and XML database management systems",
         "⚡ Create query definitions that allow data to be extracted",
         "⚡ Design and prepare reports for management",
         "⚡ Set up and test database and data handling systems",
@@ -164,7 +166,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackDevImg",
       skills: [
-        "⚡ Build responsive websites using front-end languages and frameworks HTML5, CHSTML, CSS, JavaScript, Bootstrap",
+        "⚡ Build responsive websites using front-end languages and frameworks HTML5, CSHTML, CSS, JavaScript, Bootstrap",
         "⚡ Create application back-end in Node, Django, .NET & Python",
         "⚡ Manage database systems by fetching and writing data to them",
         "⚡ Maintain version control of projects via Git and GitHub",
@@ -322,7 +324,7 @@ const skills = {
         "⚡ Develop cross-platform applications which can be used on Apple iOS, Android and web",
         "⚡ Integrate security measures, database management and memory allocation in app development",
         "⚡ Competent in web development languages",
-        "⚡ Analyse business capabilities to optimise how the mobile application’s visibility in the list of available applications of the same category",
+        "⚡ Analyse business capabilities to optimise how the mobile application's visibility in the list of available applications of the same category",
         "⚡ Competent in cyber security to secure information and make mobile applications safe to use",
         "⚡ Practise Agile development as means of increasing the speed and efficiency of the development process through better delegation",
       ],
@@ -446,7 +448,7 @@ const degrees = {
         "⚡ Provided project client requirements analysis, design and programming support for enhancement of mobile and web applications",
         "⚡ Participated in project client presentations due to ability to translate client needs into easy-to-understand software solutions",
         "⚡ Effectively collaborated with project stakeholders, project team and project supervisor",
-        "⚡ Served as the Lead Project Manager, Project Tester & Project Requirements Analyst for Software Engineering Capstone Project, Jan 2021 – July 2021",
+        "⚡ Served as the Lead Project Manager, Project Tester & Project Requirements Analyst for Software Engineering Capstone Project, Jan 2021 \u002d July 2021",
         "⚡ Interpreted business requirements to articulate business needs to be addressed",
         "⚡ Allocate requirements to software design",
         "⚡ Gained experience using Dart and C# programming languages as well as in scripting and automating tasks using Java",
@@ -500,11 +502,11 @@ const degrees = {
       website_link: "https://www.svgcc.vc/",
     },
     {
-      title: "St. Vincent Girls’ High School",
+      title: "St. Vincent Girls' High School",
       subtitle: "CXC/CSEC O'Level Certification",
       logo_path: "ghs_crest.png",
       alt_name: "GHS crest",
-      duration: "Sept 2008 – Jun 2013",
+      duration: "Sept 2008 \u002d Jun 2013",
       descriptions: [
         "⚡ Gained experiencing using Pascal programming language as an introduction to programming",
         "⚡ Won an excellence award for attaining 11 subjects in the 2013 May/June CXC/CSEC examination",
@@ -546,7 +548,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteerism",
   description:
-    "Owing to Miss Providence's endeavours, she has developed professional aptitude, strengthened her personal character and sharpened her skills. In addition, she has developed soft skills such as being a problem-solver, effective communicator, reliable, a team player and being resilient",
+    "Owing to Miss Providence's endeavours, she has developed professional aptitude, strengthened her personal character and sharpened her skills.\n In addition, she has developed soft skills such as being a problem-solver, effective communicator, a team player as well as being reliable and resilient.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -591,10 +593,10 @@ const experience = {
           company: "General Employees Co-operative Credit Union Limited",
           company_url: "https://www.geccu.com/",
           logo_path: "geccu_logo.png",
-          duration: "Dec 2015 – Aug 2017; May 2018 – Aug 2018)",
+          duration: "Dec 2015 \u002d Aug 2017; May 2018 \u002d Aug 2018)",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
-            "Organised the database of members who had dormant accounts\n Attained Credit Union National Association certificates in Member Service and Communication, 2016\n Processed deposits and withdrawals requests of members",
+            "Organised the database of members who had dormant accounts\n Processed deposits and withdrawals requests of members",
           color: "#9b1578",
         },
         {
@@ -602,10 +604,10 @@ const experience = {
           company: "Searchlight Newspaper",
           company_url: "https://searchlight.vc/",
           logo_path: "searchlight_logo.png",
-          duration: "Oct 2015 – Nov 2015",
+          duration: "Oct 2015 \u002d Nov 2015",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
-            "Effectively, pleasantly and efficiently communicated with and dealt with customer queries either in person, over the phone or via email, provided them with information on advertising rates\n Dealt with and resolved customer complaints in a professional and polite manner\n Answered telephone calls and directed calls to appropriate parties (or took messages as appropriate) within the organisation",
+            "Effectively, pleasantly and efficiently communicated with and dealt with customer queries either in person, over the phone or via email, provided them with information on advertising rates\n Dealt with and resolved customer complaints in a professional and polite manner\n Answered telephone calls and directed calls to appropriate parties (or took messages as appropriate) within the organisation\n Provided excellent organisational and secretarial skills to type articles submitted for publication\n Maintained a customer-focused approach whilst providing excellent verbal and communication skills",
           color: "#fc1f20",
         },
         {
@@ -614,7 +616,7 @@ const experience = {
           company_url:
             "https://www.findyello.com/st-vincent/healthy-lifestyle/profile/",
           logo_path: "healthyLifestyles_logo.png",
-          duration: "Sept 2015 – Oct 2015",
+          duration: "Sept 2015 \u002d Oct 2015",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
             "Organised appointments, meetings, papers and office items\n Drastically increased office efficiency by spearheading a “go digital” initiative for most planning and paperwork\n Assisted with new client enquiry calls in a professional manner\n Demonstrated confidential administration when copying, scanning, binding and collating documents\n Courteously greeted and corresponded with clients and other visitors during their sojourn at the company's office\n Undertook any other reasonable duties, commensurated with the level of the post to ensure the smooth operation of the company",
@@ -632,7 +634,7 @@ const experience = {
           logo_path: "loongo_CompanyLogo.png",
           location: "Suzhou, Jiangsu, China",
           description:
-            "Assisted in the design and development of a MVC ASP.NET course learning management website application using C# programming language\nLeveraged internal stakeholders, project client and supervisor feedback as well as data to formulate a plan of action as well as to inform and guide the website application development\nResponsible for implementing multilingual and notification features using global resources, SignalR, JQuery, Ajax and MSSQL\nDefined and documented operational procedures and project management plan\nAnalysed company and client’s requirements in order to produce recommendations, technical design documents and time/cost estimates\nProvided unambiguous, detailed and accurate status reports to project supervisor, project client, internship co-ordinator and team members\nLed the intern team through the software design, development testing and release cycle to the delivery phase\nEnsured that the delivery of the software solution aligned well with business goals and user experience optimisation",
+            "Assisted in the design and development of a MVC ASP.NET course learning management website application using C# programming language\nLeveraged internal stakeholders, project client and supervisor feedback as well as data to formulate a plan of action as well as to inform and guide the website application development\nResponsible for implementing multilingual and notification features using global resources, SignalR, JQuery, Ajax and MSSQL\nDefined and documented operational procedures and project management plan\nAnalysed company and client's requirements in order to produce recommendations, technical design documents and time/cost estimates\nProvided unambiguous, detailed and accurate status reports to project supervisor, project client, internship co-ordinator and team members\nLed the intern team through the software design, development testing and release cycle to the delivery phase\nEnsured that the delivery of the software solution aligned well with business goals and user experience optimisation",
           color: "#ee3c26",
         },
       ],
@@ -641,14 +643,47 @@ const experience = {
       title: "Volunteerism",
       experiences: [
         {
+          title: "Audio Visual (AV) Volunteer",
+          company: "CityGates Church Norwich, formerly known as, Surrey Chapel",
+          company_url: "https://www.surreychapel.org.uk/",
+          logo_path: "church_logo.png",
+          duration: "November 2022 - PRESENT",
+          location: "Norwich, United Kingdom",
+          description:
+            "Ensured that microphones, cameras, Microsoft PowerPoint slides and videos are turned on, issue-free or are correctly formatted before a church service/event begins\n Controlled/Adjusted cameras in the room\n Controlled the video feed that is projected onto the screens and delivered to the livestream and Teradeck (Vidiu) using the Roland video mixer\n Controlled/Adjusted the volume levels of the audio of the microphones and YouTube livestreams using the Soundcraft UI audio mixer\n Controlled the lights that illuminates the front of the church room to give a better lighting on the stage and on the church band\n Troubleshooted and resolved common issues like when there is no sound coming from the computer, headset microphone or source",
+          color: "#181717",
+        },
+        {
+          title: "Wordpress Front-end Developer",
+          company: "Island Scholars Incorporation",
+          company_url: "https://islandscholars.org/",
+          logo_path: "island_scholars_logo.png",
+          duration: "October 2022 - PRESENT",
+          location: "New Jersey, United States of America",
+          description:
+            "Further developed the front-end of a Wordpress-based website application that offers scholarships and mentorship to persons by optimising user experience,revising the contact form, amending carousel images\nIn-depth understanding of developing and maintaining a website accurately according to client's requirements\n Problem-solved and fixed bugs in the existing project\nRefactored and optimised existing code\n First-class organisational skills with the ability to prioritise, multitask and manage time effectively\nBasic understanding of UX and UI principles\nStrong attention to detail and creative problem-solving skills\nExcellent interpersonal and communication skills with client\n Worked autonomously and used initiative to complete project tasks utilising WooCommerce, Advanced Custom Fields, Custom Post Types, custom WordPress themes and plugins as well as jQuery, HTML, CSS and JS",
+          color: "#181717",
+        },
+        {
+          title: "Parkrun Volunteer",
+          company: "Parkrun",
+          company_url: "https://www.parkrun.org.uk/sloughbottom",
+          logo_path: "parkrun_logo.png",
+          duration: "July 2022 - PRESENT",
+          location: "Norwich, United Kingdom",
+          description:
+            "Executed roles on various occasions at a weekly 5km community event like  setting up or closing the course event, checking the course event, scanning barcodes, handing out finish tokens to finishers and providing support as well as encouragement to walkers whilst ahead of the Tail Walker but behind those who are running\n Respected Parkrun's principles\n Acted kind and respectful\n Acted reliable, responsible and attentive\n Gained social connections, knowledge, skills, confidence and motivation\n Improved physical and mental strength",
+          color: "#181717",
+        },
+        {
           title: "Open Source Project Contributor & Developer",
           company: "Github",
           company_url: "https://github.com/Sherida101?tab=repositories",
           logo_path: "github_logo.png",
-          duration: "September 2021 - Present",
+          duration: "September 2021 - PRESENT",
           location: "",
           description:
-            "Actively building, testing and publishing open source projects to GitHub both independently and collaboratively\nProjects include bug fixes and proper documentation",
+            "Actively built, tested and published open source projects to GitHub both independently and collaboratively\nProjects included bug fixes and proper documentation",
           color: "#181717",
         },
       ],
@@ -677,7 +712,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "profile_image1.png",
     description:
-      "Aaliyah Providence is available on social media platforms - LinkedIn, Facebook, GitHub and Stack Overflow.\nSend her a message, she will reply within 24 hours. Her proficiency in website development, mobile application development and project management will transform one's ideas into life.",
+      "Aaliyah Providence is available on social media platforms - LinkedIn, Facebook and GitHub.\nHer proficiency in software testing, website development, mobile application development and project management will transform one's ideas into life.",
   },
   addressSection: {
     title: "Address",

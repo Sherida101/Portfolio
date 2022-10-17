@@ -41,7 +41,9 @@ class Contact extends Component {
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {ContactData["description"]}
+                  {ContactData["description"].split("\n").map((item) => (
+                    <p> {item} </p>
+                  ))}
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
