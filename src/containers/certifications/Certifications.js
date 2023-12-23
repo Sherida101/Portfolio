@@ -8,7 +8,7 @@ class Certifications extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="main" id="certs">
+      <div className="main" id="certs" style={{ marginTop: 0 }}>
         <div className="certs-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="certs-header" style={{ color: theme.text }}>

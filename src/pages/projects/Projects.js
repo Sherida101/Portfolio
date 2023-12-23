@@ -39,7 +39,9 @@ class Projects extends Component {
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {projectsHeader["description"]}
+                  {projectsHeader["description"].split("\n").map((item) => (
+                    <p> {item} </p>
+                  ))}
                 </p>
               </div>
             </div>

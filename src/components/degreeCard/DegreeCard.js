@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
+import "./Collapsible.css";
 import { Fade, Flip } from "react-reveal";
+import Collapsible from "./Collapsible"; //"react-collapsible";
 
 class DegreeCard extends Component {
   render() {
@@ -28,7 +30,7 @@ class DegreeCard extends Component {
             className="card-body"
             style={{ width: degree.logo_path ? "90%" : "100%" }}
           >
-            <div
+            {/* <div
               className="body-header"
               style={{ backgroundColor: theme.headerColor }}
             >
@@ -45,32 +47,47 @@ class DegreeCard extends Component {
                   {degree.duration}
                 </h3>
               </div>
-            </div>
-            <div className="body-content">
-              {degree.descriptions.map((sentence) => {
-                return (
-                  <p className="content-list" style={{ color: theme.text }}>
-                    {sentence}
-                  </p>
-                );
-              })}
-              {degree.website_link && (
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
+            </div> */}
+
+            <Collapsible
+              // trigger={degree.title}
+              triggerElementProps={{ degree: degree, theme: theme }}
+              triggerStyle={{ backgroundColor: theme.headerColor }}
+              onOpen={() => {
+                document.getElementsByClassName("card-img")[0].style.width =
+                  "200px";
+              }}
+              onClose={() => {
+                document.getElementsByClassName("card-img")[0].style.width =
+                  "100px";
+              }}
+            >
+              <div className="body-content">
+                {degree.descriptions.map((sentence) => {
+                  return (
+                    <p className="content-list" style={{ color: theme.text }}>
+                      {sentence}
                     </p>
-                  </div>
-                </a>
-              )}
-            </div>
+                  );
+                })}
+                {degree.website_link && (
+                  <a
+                    href={degree.website_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div
+                      className="visit-btn"
+                      style={{ backgroundColor: theme.headerColor }}
+                    >
+                      <p className="btn" style={{ color: theme.text }}>
+                        Visit Website
+                      </p>
+                    </div>
+                  </a>
+                )}
+              </div>
+            </Collapsible>
           </div>
         </Fade>
       </div>

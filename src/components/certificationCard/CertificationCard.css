@@ -1,5 +1,5 @@
 .cert-card {
-  width: 30%;
+  width: 50%;
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
   box-shadow: 5px 5px 5px #d9dbdf;
   margin-bottom: 30px;
   flex: 0 0 30%;
+  height: fit-content;
 }
 
 .cert-header {

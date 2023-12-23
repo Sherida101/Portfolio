@@ -1,38 +1,33 @@
-<p align="center"> 
-    <img src="images/portfolio_banner.jpg" align="center" height="150"></img>
+<p style="margin:0 auto; text-align:center;"> 
+    <img src="images/portfolio_banner.png" height="150"></img>
 </p>
 
-<h1 align="center"> Aaliyah Providence's Software Developer Portfolio 🔥 </h1> 
-<h3 align="center"> A showcase of skills, relevant experiences, personal projects and documented source code for coding projects </h3>
+<h1 style="margin:0 auto; text-align:center;"> Aaliyah Providence's Software Developer Portfolio 🔥 </h1> 
+<h3 style="margin:0 auto; text-align:center;  margin-top:20px;"> A showcase of skills, relevant experiences, personal projects and documented source code for coding projects </h3>
 
-<p align="center">
-  <a href="http://hits.dwyl.com/Sherida101/Portfolio"><img alt="HitCounts" src="http://hits.dwyl.com/Sherida101/Portfolio.svg" /></a>
+<p style="margin:0 auto; margin-top:20px; text-align:center;">
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSherida101%2FPortfolio&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
   <a href="https://nodejs.org/en/blog/release/v16.16.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-16.16.0-important?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/8.15.0"><img alt="NPM" src="https://img.shields.io/badge/npm-8.15.0-blueviolet?style=flat-square" /></a>
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
   <br/>
-  <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
-  <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://github.com/Sherida101/Portfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
+  <a href="https://github.com/Sherida101/Portfolio/commits/main"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
-  <a href="https://sherida101.github.io/Portfolio/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
+  <a href="/LICENSE"><img src="https://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" alt="license" /></a>
 </p>
 
-<p align="center"> 
+<p style="margin:0 auto; margin-top:20px; text-align:center;"> 
     <a href="https://sherida101.github.io/Portfolio" target="_blank">
     <img src="images/portfolioWebsiteTheme.png"></img>
   </a>
 </p>
 
-:star: Star us on GitHub — it helps!
-
 # Sections 📚
 
 ✔️ Portfolio Introduction\
 ✔️ Skills \
-✔️ Open Source Projects Connected with Github\
+✔️ Open Source Projects Connected to Github\
 ✔️ Experience\
 ✔️ Qualifications & Certifications 🏆\
 ✔️ Education\
@@ -56,7 +51,7 @@ To view a live example, **[click here](https://sherida101.github.io/Portfolio)**
   ```
 - Load the website locally on a browser with `npm start` now that the project is ready to be used.
 
-# Customize it to make your own portfolio ✏️
+# Customise it to make your own portfolio ✏️
 
 In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
 

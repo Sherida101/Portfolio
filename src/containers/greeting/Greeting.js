@@ -8,15 +8,15 @@ import { Fade } from "react-reveal";
 
 export default function Greeting(props) {
   const theme = props.theme;
-    const ColoredLine = ({ color }) => (
+  const ColoredLine = ({ color }) => (
     <hr
-        style={{
-            color: color,
-            backgroundColor: color,
-            height: 2
-        }}
+      style={{
+        color: color,
+        backgroundColor: color,
+        height: 2,
+      }}
     />
-);
+  );
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -26,14 +26,23 @@ export default function Greeting(props) {
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {greeting.title}
               </h1>
-              <h2 className="greeting-currentJobStatus" style={{ color: theme.text }}>
-                 {greeting.currentJobStatus} 
+              <h2
+                className="greeting-currentJobStatus"
+                style={{ color: theme.text }}
+              >
+                {greeting.currentJobStatus}
               </h2>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {greeting.subTitle}
+              </p>
+              <p
+                className="greeting-text-p subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {greeting.subTitle2}
               </p>
               <SocialMedia theme={theme} />
               {/* <div className="portfolio-repo-btn-div">
@@ -51,17 +60,17 @@ export default function Greeting(props) {
             </div> */}
             </div>
           </div>
-          
+
           <div className="greeting-image-div">
             <img
-							alt="aspirations"
-							src={require("../../assets/images/programmer3.svg")}
-						></img>
+              alt="aspirations"
+              src={require("../../assets/images/programmer3.svg")}
+            ></img>
             {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>
-      <ColoredLine color="#cedcee" ></ColoredLine>
+      <ColoredLine color="#cedcee"></ColoredLine>
     </Fade>
   );
 }

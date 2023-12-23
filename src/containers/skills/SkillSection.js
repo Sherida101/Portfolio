@@ -5,7 +5,7 @@ import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackDevImg from "./FullStackDevImg";
-import DBManagementImg from "./DBManagementImg";
+// import DBManagementImg from "./DBManagementImg";
 import GraphicDesignImg from "./GraphicDesignImg";
 
 function GetSkillSvg(props) {
@@ -14,17 +14,30 @@ function GetSkillSvg(props) {
   else if (props.fileName === "FullStackDevImg")
     return <FullStackDevImg theme={props.theme} />;
   else if (props.fileName === "DBManagementImg")
-    return <DBManagementImg theme={props.theme} />;
-    else if (props.fileName === "MobileAppDevelopmentImg")
-    return <img
-      alt="Project management"
-      src={require("../../assets/images/mobile_development.svg")}
-    ></img>;
+    // return <DBManagementImg theme={props.theme} />;
+    return (
+      <img
+        width="500"
+        height="500"
+        alt="Database icon"
+        style={{ marginLeft: "150px" }}
+        src={require("../../assets/images/database_img.png")}
+      ></img>
+    );
+  else if (props.fileName === "MobileAppDevelopmentImg")
+    return (
+      <img
+        alt="Project management"
+        src={require("../../assets/images/mobile_development.svg")}
+      ></img>
+    );
   else if (props.fileName === "ProjectManagementImg")
-    return <img
-      alt="Project management"
-      src={require("../../assets/images/project_management.svg")}
-    ></img>;
+    return (
+      <img
+        alt="Project management"
+        src={require("../../assets/images/project_management.svg")}
+      ></img>
+    );
   return <GraphicDesignImg theme={props.theme} />;
 }
 

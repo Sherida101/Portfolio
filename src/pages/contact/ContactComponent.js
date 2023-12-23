@@ -27,7 +27,7 @@ class Contact extends Component {
               <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="Profile icon"
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -61,6 +61,11 @@ class Contact extends Component {
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 <img
+                  style={{
+                    width: "80%",
+                    height: "80%",
+                    transform: "scale(0.9)",
+                  }}
                   src={require("../../assets/images/mail.svg")}
                   alt="mailbox"
                 />
@@ -87,7 +92,7 @@ class Contact extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {phoneSection["title"]}
+                  {/* {phoneSection["title"]} */}
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"

@@ -25,20 +25,18 @@ const greeting = {
   logo_name: "AaliyahProvidence",
   currentJobStatus: "Junior Software Developer",
   subTitle:
-    "Full Stack Developer with specialties in mobile and website application development as well as software design, project management and software testing. A quick learner with effective time management and efficient multi-tasking skills. Strong work ethic in a team or individual settings to drive product success and process efficiency proficiency.",
+    "Full-stack developer with specialties in mobile and website application development as well as software design, project management and software testing.",
+  subTitle2:
+    "A quick learner with effective time management and efficient multi-tasking skills. Strong work ethic in a team or individual settings to drive product success and process efficiency as well as proficiency.",
   cvLink:
     "https://drive.google.com/file/d/11Tqv1aLKsZV7091TQAeEKqCr9CM8-uxU/view?usp=sharing",
   portfolio_repository: "https://github.com/Sherida101/Portfolio",
   githubProfile: "https://github.com/Sherida101",
+  footer: "ASP's Portfolio 2022-2024 | Made with ReactJs",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/Sherida101",
-  // linkedin: "https://www.linkedin.com/in/aaliyah-providence-0355b321a/",
-  // gmail: "sherida567@gmail.com",
-  // facebook: "https://www.facebook.com/smileysherida/",
-
+  /* Social Media links */
   {
     name: "Github",
     link: "https://github.com/Sherida101",
@@ -63,107 +61,14 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/smileysherida/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
 ];
 
+// Get icons from: https://icon-sets.iconify.design/
 const skills = {
   data: [
+    // Full-stack Development
     {
-      title: "Database Management",
-      fileName: "DBManagementImg",
-      skills: [
-        "⚡ Visualise and analyse data",
-        "⚡ Ensure that data is collected and managed in the database",
-        "⚡ Understand the business of the company",
-        "⚡ Eye for detail and accuracy",
-        "⚡ In-depth understanding of NoSQL and SQL",
-        "⚡ Adequate knowledge of 'relational database management systems' (RDBMS), 'object oriented database management systems' (OODBMS) and XML database management systems",
-        "⚡ Create query definitions that allow data to be extracted",
-        "⚡ Design and prepare reports for management",
-        "⚡ Set up and test database and data handling systems",
-        "⚡ Develop protocols for data processing",
-      ],
-      softwareSkills: [
-        {
-          skillName: "SQLite",
-          fontAwesomeClassname: "vscode-icons:file-type-sqlite",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "logos:mysql-icon",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "MSSQL",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Apache Spark",
-          fontAwesomeClassname: "cib:apache-spark",
-          style: {
-            color: "#326CE5",
-          },
-        },
-        {
-          skillName: "Apache Hive",
-          fontAwesomeClassname: "simple-icons:apachehive",
-          style: {
-            color: "#326CE5",
-          },
-        },
-        {
-          skillName: "Apache Hadoop",
-          fontAwesomeClassname: "simple-icons:apachehadoop",
-          style: {
-            color: "#326CE5",
-          },
-        },
-        {
-          skillName: "Redis",
-          fontAwesomeClassname: "logos:redis",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
+      title: "Full-stack Development",
       fileName: "FullStackDevImg",
       skills: [
         "⚡ Build responsive websites using front-end languages and frameworks HTML5, CSHTML, CSS, JavaScript, Bootstrap",
@@ -227,7 +132,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs",
           style: {
             color: "#339933",
           },
@@ -278,6 +183,104 @@ const skills = {
         },
       ],
     },
+    // Database Management
+    {
+      title: "Database Management",
+      fileName: "DBManagementImg",
+      skills: [
+        "⚡ Visualise and analyse data",
+        "⚡ Ensure that data is collected and managed in the database",
+        "⚡ Understand the business of the company",
+        "⚡ Eye for detail and accuracy",
+        "⚡ In-depth understanding of NoSQL and SQL",
+        "⚡ Adequate knowledge of 'relational database management systems' (RDBMS), 'object oriented database management systems' (OODBMS) and XML database management systems",
+        "⚡ Create query definitions that allow data to be extracted",
+        "⚡ Design and prepare reports for management",
+        "⚡ Set up and test database and data handling systems",
+        "⚡ Develop protocols for data processing",
+      ],
+      softwareSkills: [
+        {
+          skillName: "SQLite",
+          fontAwesomeClassname: "vscode-icons:file-type-sqlite",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql-icon",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "MSSQL",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos:postgresql",
+          style: {
+            color: "#4169E1",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Apache Spark",
+          fontAwesomeClassname: "cib:apache-spark",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Apache Hive",
+          fontAwesomeClassname: "simple-icons:apachehive",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Apache Hadoop",
+          fontAwesomeClassname: "simple-icons:apachehadoop",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: {
+            color: "#326CE5",
+          },
+        },
+      ],
+    },
+    // Graphic Design
     {
       title: "Graphic Design",
       fileName: "GraphicDesignImg",
@@ -288,7 +291,7 @@ const skills = {
       softwareSkills: [
         {
           skillName: "GIMP",
-          fontAwesomeClassname: "d icon:cib:gimp",
+          fontAwesomeClassname: "devicon:gimp",
           style: {
             color: "#FF2BC2",
           },
@@ -316,6 +319,7 @@ const skills = {
         },
       ],
     },
+    // Mobile application development
     {
       title: "Mobile Application Development",
       fileName: "MobileAppDevelopmentImg",
@@ -367,7 +371,7 @@ const skills = {
         },
       ],
     },
-
+    // Project Management
     {
       title: "Project Management",
       fileName: "ProjectManagementImg",
@@ -406,7 +410,21 @@ const skills = {
           skillName: "Git",
           fontAwesomeClassname: "bi:git",
           style: {
-            color: "#1572B6",
+            color: "#F05032",
+          },
+        },
+        {
+          skillName: "Trello",
+          fontAwesomeClassname: "logos:trello",
+          style: {
+            color: "#0079BF",
+          },
+        },
+        {
+          skillName: "Jira",
+          fontAwesomeClassname: "logos:jira",
+          style: {
+            color: "#0052CC",
           },
         },
       ],
@@ -438,6 +456,26 @@ const competitiveSites = {
 
 const degrees = {
   degrees: [
+    // University of Huddersfield
+    // {
+    //   title: "University of Huddersfield",
+    //   subtitle:
+    //     "Master of Science in Cyber Security and Digital Forensics (Distance Learning)",
+    //   logo_path: "university_of_huddersfield_logo.png",
+    //   alt_name: "University of Huddersfield crest",
+    //   duration: "Sept 2024 - Jun 2026",
+    //   descriptions: [
+    //     "⚡ Gained key skills to become a successful computing researcher by covering the structure of research papers and project reports, reviewing research papers, ethical issues (including plagiarism), defining projects, project management, writing project proposals and making presentations",
+    //     "⚡ Studied Artificial Intelligence (AI) techniques such as Hidden Markov Models and Support Vector Machines to understand the fundamentals of AI technology and applications like malware analysis, intrusion detection, and security policy analysis",
+    //     "⚡ Studied approaches to preparing data for exploration, supervised and un-supervised approaches to data mining, exploring unstructured data and the social impact of data mining",
+    //     "⚡ Developed strategies to evaluate and select Distributed Ledger Technologies (DLT) that are most appropriate for a chosen domain, including Internet of Things and FinTech. ",
+    //     "⚡ Acquired in-depth understanding of the security attacks that may threaten wired and wireless networked systems and how these attacks are possible, usually by exploiting vulnerabilities in the design, implementation, or operation of network protocols. You will explore several key network security techniques, such as IP security and network authentication protocols, and gain an understanding of how these techniques protect networks. You will also learn how to identify security vulnerabilities in enterprise networks and propose sophisticated secure designs to face such threats.",
+    //     "⚡ Developed critical understanding of threats to digital systems and how these threats are possible, usually by exploiting weaknesses in digital systems",
+    //     "⚡ Notable modules learnt - Effective Research and Professional Practice, Applied Cryptography (Distance Learning), Digital Forensics, Foundations of Cyber Security (Distance Learning), Network Security (Distance Learning), Data Mining, Distributed Ledger Technologies and Applications of Artificial Intelligence in Cyber Security",
+    //   ],
+    //   website_link: "https://www.hud.ac.uk",
+    // },
+    // Global Institute of Software Technology
     {
       title: "Global Institute of Software Technology",
       subtitle: "General Institute of Higher Education Diploma",
@@ -460,6 +498,7 @@ const degrees = {
       ],
       website_link: "http://www.gist.edu.cn/",
     },
+    // The University of the West Indies Mona
     {
       title: "The University of the West Indies Mona",
       subtitle:
@@ -485,10 +524,11 @@ const degrees = {
       ],
       website_link: "https://www.mona.uwi.edu/",
     },
+    // SVG DASGC
     {
       title:
         "St. Vincent and the Grenadines Community College Division of Arts Science and General Studies",
-      subtitle: "CAPE Certification",
+      subtitle: "CAPE A'Level Certification",
       logo_path: "svgcc_dasgs_crest.png",
       alt_name: "SVGCC DASGS crest",
       duration: "Aug 2013 - Jun 2015",
@@ -501,6 +541,7 @@ const degrees = {
       ],
       website_link: "https://www.svgcc.vc/",
     },
+    // GHS
     {
       title: "St. Vincent Girls' High School",
       subtitle: "CXC/CSEC O'Level Certification",
@@ -522,15 +563,44 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    // Certificate in Cyber Security
+    // {
+    //   title: "Certificate in Cyber Security",
+    //   subtitle: "December, 2023",
+    //   logo_path: "uk_pda_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1MlvXgIg4r1N3sxTU0SURRFC3QKf_72kX/view?usp=drive_link",
+    //   alt_name: "HackerRank Python(Basic) Certification",
+    //   color_code: "#ffffff",
+    // },
+    // Fundamentals of Metrology for Engineering Biology
     {
-      title:
-        "Microsoft Technology Associate: Software Development Fundamentals (MTA 98-361)",
-      subtitle: "May 2021",
-      logo_path: "microsoft_logo.png",
+      title: "Fundamentals of Metrology for Engineering Biology",
+      subtitle: "November, 2023",
+      logo_path: "lgc_logo.png",
       certificate_link:
-        "https://www.credly.com/badges/20f9c86e-547e-4f42-92ed-a05f8549b08f/public_url",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
+        "https://drive.google.com/file/d/1MnmnMZgCvehR-a3TaD9G0JFbxL6iiHXE/view?usp=sharing",
+      alt_name:
+        "LGC Fundamentals of Metrology for Engineering Biology Certification",
+      color_code: "#ffffff",
+    },
+    {
+      title: "Machine Learning in Python for Health and Disease",
+      subtitle: "November, 2023",
+      logo_path: "learn2discover_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1121ATaDOIkRhS2qFWTAuDV5n_UlCdmkw/view?usp=sharing",
+      alt_name: "Learn2Discover Machine Learning Certification",
+      color_code: "#02214d",
+    },
+    {
+      title: "Basic Python & Data Handling in Python for Health and Disease",
+      subtitle: "March, 2023",
+      logo_path: "learn2discover_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1u65HI8GV7-SoLF7ylV_-7t-tfuenTg9a/view?usp=share_link",
+      alt_name: "Learn2Discover Basic Python & Data Handling Certification",
+      color_code: "#02214d",
     },
     {
       title: "HackerRank - Python(Basic)",
@@ -538,7 +608,17 @@ const certifications = {
       logo_path: "hackerRank_logo.png",
       certificate_link: "https://www.hackerrank.com/certificates/1bd9858dff88",
       alt_name: "HackerRank Python(Basic) Certification",
-      color_code: "#00000099",
+      color_code: "#0d141e",
+    },
+    {
+      title:
+        "Microsoft Technology Associate: Software Development Fundamentals (MTA 98-361)",
+      subtitle: "May 2021",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/20f9c86e-547e-4f42-92ed-a05f8549b08f/public_url",
+      alt_name: "Microsoft Software Development Fundamentals Certification",
+      color_code: "#D83B0199",
     },
   ],
 };
@@ -546,11 +626,12 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteerism",
+  subtitle: "Work, Secondments, Internships & Volunteerism",
   description:
-    "Owing to Miss Providence's endeavours, she has developed professional aptitude, strengthened her personal character and sharpened her skills.\n In addition, she has developed soft skills such as being a problem-solver, effective communicator, a team player as well as being reliable and resilient.",
+    "Owing to Miss Providence's endeavours, she has developed professional aptitude, strengthened her personal character and sharpened her skills.\n In addition, she has developed soft skills such as being a problem-solver, effective communicator, a team player reliable and resilient.",
   header_image_path: "experience.svg",
   sections: [
+    // Work
     {
       title: "Work",
       experiences: [
@@ -619,11 +700,40 @@ const experience = {
           duration: "Sept 2015 \u002d Oct 2015",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
-            "Organised appointments, meetings, papers and office items\n Drastically increased office efficiency by spearheading a “go digital” initiative for most planning and paperwork\n Assisted with new client enquiry calls in a professional manner\n Demonstrated confidential administration when copying, scanning, binding and collating documents\n Courteously greeted and corresponded with clients and other visitors during their sojourn at the company's office\n Undertook any other reasonable duties, commensurated with the level of the post to ensure the smooth operation of the company",
+            "Organised appointments, meetings, papers and office items" +
+            "\n Drastically increased office efficiency by spearheading a “go digital” initiative for most planning and paperwork" +
+            "\n Assisted with new client enquiry calls in a professional manner" +
+            "\n Demonstrated confidential administration when copying, scanning, binding and collating documents" +
+            "\n Courteously greeted and corresponded with clients and other visitors during their sojourn at the company's office" +
+            "\n Undertook any other reasonable duties, commensurated with the level of the post to ensure the smooth operation of the company",
           color: "#fc1f20",
         },
       ],
     },
+    // Secondments
+    {
+      title: "Secondments",
+      experiences: [
+        {
+          title: "Software Developer Secondee",
+          company: "European Bioinformatics Institute | EMBL-EBI ",
+          company_url: "https://www.embl.org",
+          logo_path: "ebi_logo.png",
+          duration: "March 2023",
+          location:
+            "Wellcome Genome Campus, Hinxton, Cambridgeshire, United Kingdom",
+          description:
+            "Gained insights about the European Nucleotide Archive (ENA), ENA's role in the International Nucleotide Sequence Database Collaboration (INSDC), ENA presentation and retrieval guides, ENA portal and browser application programming interface (APIs), submission guides as well as services" +
+            "\nGained an awareness of ENA comms and training, standard and checklists, ENA checklist developments for a few projects, collaborations and communication methods of the two teams that comprise ENA - Data Co-ordination Archiving team and Archiving and Infrastructure Technology team" +
+            "\nAttended a few meetings that revolve around development within presentation services like ENA Content team meetings and ENA user support review meetings" +
+            "\nAttended a few meetings that revolve around ENA's support, standards and submission services" +
+            "\nUndertook development tasks that used Angular and Typescript to display content on the ENA browser and ENA Webin portal",
+
+          color: "#ee3c26",
+        },
+      ],
+    },
+    // Internships
     {
       title: "Internships",
       experiences: [
@@ -632,6 +742,7 @@ const experience = {
           company: "Loongo Company Limited",
           company_url: "http://www.loongogroup.com/index.php?styleid=2",
           logo_path: "loongo_CompanyLogo.png",
+          duration: "Mar 2021 \u002d Jun 2021",
           location: "Suzhou, Jiangsu, China",
           description:
             "Assisted in the design and development of a MVC ASP.NET course learning management website application using C# programming language\nLeveraged internal stakeholders, project client and supervisor feedback as well as data to formulate a plan of action as well as to inform and guide the website application development\nResponsible for implementing multilingual and notification features using global resources, SignalR, JQuery, Ajax and MSSQL\nDefined and documented operational procedures and project management plan\nAnalysed company and client's requirements in order to produce recommendations, technical design documents and time/cost estimates\nProvided unambiguous, detailed and accurate status reports to project supervisor, project client, internship co-ordinator and team members\nLed the intern team through the software design, development testing and release cycle to the delivery phase\nEnsured that the delivery of the software solution aligned well with business goals and user experience optimisation",
@@ -639,6 +750,7 @@ const experience = {
         },
       ],
     },
+    // Volunteerism
     {
       title: "Volunteerism",
       experiences: [
@@ -695,7 +807,8 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "The majority of Miss Providence's projects are open source and uses Object-Oriented technologies, latest technology tools. Miss Providence's best experience is building mobile applications and connecting them to databases.",
+    "The majority of Miss Providence's projects are open source and uses Object-Oriented technologies as well as the latest technology tools." +
+    "\nMiss Providence's best experience is building websites and mobile applications and connecting them to databases.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -712,7 +825,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "profile_image1.png",
     description:
-      "Aaliyah Providence is available on social media platforms - LinkedIn, Facebook and GitHub.\nHer proficiency in software testing, website development, mobile application development and project management will transform one's ideas into life.",
+      "Aaliyah Providence is available on social media platforms - LinkedIn and GitHub.\nHer proficiency in software testing, website development, mobile application development and project management will transform one's ideas into life.",
   },
   addressSection: {
     title: "Address",
@@ -723,7 +836,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+44 7904 876860",
+    subtitle: "",
   },
 };
 
