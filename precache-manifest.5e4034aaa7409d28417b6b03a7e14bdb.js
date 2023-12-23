@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d3a7e93c7adb72e3dd3e384dd7565b2",
+    "revision": "1996a64a91ddd0ec3054e4cc5d3d48cc",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "44ef3dae5de28508baef",
-    "url": "/Portfolio/static/css/main.1ac8be86.chunk.css"
+    "revision": "b89ddf7847198d7c2206",
+    "url": "/Portfolio/static/css/main.4962ebee.chunk.css"
   },
   {
-    "revision": "ee961642d1c69df4fe5a",
-    "url": "/Portfolio/static/js/2.5c41b48c.chunk.js"
+    "revision": "eb6751d3f77015b55198",
+    "url": "/Portfolio/static/js/2.498a5223.chunk.js"
   },
   {
-    "revision": "44ef3dae5de28508baef",
-    "url": "/Portfolio/static/js/main.6104b67c.chunk.js"
+    "revision": "b89ddf7847198d7c2206",
+    "url": "/Portfolio/static/js/main.146ad470.chunk.js"
   },
   {
     "revision": "cd5ee4e3a8fb915fd97c",
@@ -96,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/data_science.ebf35d7f.svg"
   },
   {
+    "revision": "c44c9e950a75a482f40127a84155c557",
+    "url": "/Portfolio/static/media/database_img.c44c9e95.png"
+  },
+  {
     "revision": "75a7107b7739a46950f66de29779eb52",
     "url": "/Portfolio/static/media/deeplearning_ai_logo.75a7107b.png"
   },
@@ -106,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "63f707f224c8a842ac928c36e3be879a",
     "url": "/Portfolio/static/media/dsc_logo.63f707f2.png"
+  },
+  {
+    "revision": "3c7722ecdf3d5191392cf3cae4b2de88",
+    "url": "/Portfolio/static/media/ebi_logo.3c7722ec.png"
   },
   {
     "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
@@ -240,8 +248,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/krisAnCharlesInvestments_logo.e58cd96a.png"
   },
   {
+    "revision": "b45a0463d28fdc60144e4685cfb0e43e",
+    "url": "/Portfolio/static/media/learn2discover_logo.b45a0463.png"
+  },
+  {
     "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
     "url": "/Portfolio/static/media/legato_logo.c597fbde.png"
+  },
+  {
+    "revision": "ca19482032567e282b2d1bfd3e44878a",
+    "url": "/Portfolio/static/media/lgc_logo.ca194820.png"
   },
   {
     "revision": "0f8173711fffda72d959120c0c2c98d6",
@@ -330,6 +346,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
     "url": "/Portfolio/static/media/ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "63c0bad71b85f42ffee5c1b1195d3448",
+    "url": "/Portfolio/static/media/uk_pda_logo.63c0bad7.png"
   },
   {
     "revision": "e5a3ad441fbe789046f733c8c78c139d",

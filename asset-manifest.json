@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1ac8be86.chunk.css",
-    "main.js": "/Portfolio/static/js/main.6104b67c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.6104b67c.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.4962ebee.chunk.css",
+    "main.js": "/Portfolio/static/js/main.146ad470.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.146ad470.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.90fad5d3.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.90fad5d3.js.map",
-    "static/js/2.5c41b48c.chunk.js": "/Portfolio/static/js/2.5c41b48c.chunk.js",
-    "static/js/2.5c41b48c.chunk.js.map": "/Portfolio/static/js/2.5c41b48c.chunk.js.map",
+    "static/js/2.498a5223.chunk.js": "/Portfolio/static/js/2.498a5223.chunk.js",
+    "static/js/2.498a5223.chunk.js.map": "/Portfolio/static/js/2.498a5223.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.634f3979e63f4d6e2ffe13bb8c02da66.js": "/Portfolio/precache-manifest.634f3979e63f4d6e2ffe13bb8c02da66.js",
+    "precache-manifest.5e4034aaa7409d28417b6b03a7e14bdb.js": "/Portfolio/precache-manifest.5e4034aaa7409d28417b6b03a7e14bdb.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.1ac8be86.chunk.css.map": "/Portfolio/static/css/main.1ac8be86.chunk.css.map",
+    "static/css/main.4962ebee.chunk.css.map": "/Portfolio/static/css/main.4962ebee.chunk.css.map",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/Portfolio/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/Portfolio/static/media/animated_ashutosh.be4f4800.png",
@@ -23,9 +23,11 @@
     "static/media/contactMail.png": "/Portfolio/static/media/contactMail.5f915405.png",
     "static/media/cupidDelights_logo.png": "/Portfolio/static/media/cupidDelights_logo.3913b790.png",
     "static/media/data_science.svg": "/Portfolio/static/media/data_science.ebf35d7f.svg",
+    "static/media/database_img.png": "/Portfolio/static/media/database_img.c44c9e95.png",
     "static/media/deeplearning_ai_logo.png": "/Portfolio/static/media/deeplearning_ai_logo.75a7107b.png",
     "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.3e23ca14.svg",
     "static/media/dsc_logo.png": "/Portfolio/static/media/dsc_logo.63f707f2.png",
+    "static/media/ebi_logo.png": "/Portfolio/static/media/ebi_logo.3c7722ec.png",
     "static/media/education.svg": "/Portfolio/static/media/education.3bab7a9d.svg",
     "static/media/experience.svg": "/Portfolio/static/media/experience.a00ede3f.svg",
     "static/media/all.css": "/Portfolio/static/media/fa-solid-900.8e4a6dcc.eot",
@@ -45,7 +47,9 @@
     "static/media/island_scholars_logo.png": "/Portfolio/static/media/island_scholars_logo.06400ff5.png",
     "static/media/jsFramework.svg": "/Portfolio/static/media/jsFramework.5b4a6449.svg",
     "static/media/krisAnCharlesInvestments_logo.png": "/Portfolio/static/media/krisAnCharlesInvestments_logo.e58cd96a.png",
+    "static/media/learn2discover_logo.png": "/Portfolio/static/media/learn2discover_logo.b45a0463.png",
     "static/media/legato_logo.png": "/Portfolio/static/media/legato_logo.c597fbde.png",
+    "static/media/lgc_logo.png": "/Portfolio/static/media/lgc_logo.ca194820.png",
     "static/media/loongo_CompanyLogo.png": "/Portfolio/static/media/loongo_CompanyLogo.0f817371.png",
     "static/media/mail.svg": "/Portfolio/static/media/mail.9eef9021.svg",
     "static/media/manOnTable.svg": "/Portfolio/static/media/manOnTable.83ac24fb.svg",
@@ -68,12 +72,13 @@
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "/Portfolio/static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/ui_ux_design.svg": "/Portfolio/static/media/ui_ux_design.d6363089.svg",
+    "static/media/uk_pda_logo.png": "/Portfolio/static/media/uk_pda_logo.63c0bad7.png",
     "static/media/uwi_mona_crest.png": "/Portfolio/static/media/uwi_mona_crest.e5a3ad44.png"
   },
   "entrypoints": [
     "static/js/runtime-main.90fad5d3.js",
-    "static/js/2.5c41b48c.chunk.js",
-    "static/css/main.1ac8be86.chunk.css",
-    "static/js/main.6104b67c.chunk.js"
+    "static/js/2.498a5223.chunk.js",
+    "static/css/main.4962ebee.chunk.css",
+    "static/js/main.146ad470.chunk.js"
   ]
 }
