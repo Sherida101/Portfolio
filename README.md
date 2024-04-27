@@ -17,6 +17,8 @@
   <a href="/LICENSE"><img src="https://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" alt="license" /></a>
 </p>
 
+## ![developer](https://img.shields.io/badge/Developed%20By%20%3A-Aaliyah%20Providence-blue) | [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/asptechinc)
+
 <p style="margin:0 auto; margin-top:20px; text-align:center;"> 
     <a href="https://sherida101.github.io/Portfolio" target="_blank">
     <img src="images/portfolioWebsiteTheme.png"></img>
