@@ -28,7 +28,7 @@ const greeting = {
     "Motivated Full-stack Developer with a solid foundation in mobile and web app development, software design, and project delivery. Proficient in Python, Java, and JavaScript(including Angular and React), with a focus on usability and functionality.",
   subTitle2:
     "Certified in UX design and research by Google, bringing a user - first approach to development.Quick to learn, collaborative, and strong in problem - solving and time management.Seeking a role to grow technically while building impactful, user - centered digital tools.",
-  cvLink: "./assets/files/CV_Aaliyah_Providence.pdf",
+  cvLink: "/CV_Aaliyah_Providence.pdf",
   // "https://drive.google.com/file/d/19ggw8FOTaTJ1uzJDc0CTnycf8SppZ5Yz/view?usp=sharing",
   portfolio_repository: "https://github.com/Sherida101/Portfolio",
   githubProfile: "https://github.com/Sherida101",
