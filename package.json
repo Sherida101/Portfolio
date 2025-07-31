@@ -4,11 +4,12 @@
   "homepage": "https://sherida101.github.io/Portfolio",
   "version": "0.1.0",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider node your-dev-file.js",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {

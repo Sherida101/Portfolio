@@ -48,7 +48,7 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="View My CV"
+                    text="View my CV"
                     newTab={true}
                     href={greeting.cvLink}
                     theme={theme}

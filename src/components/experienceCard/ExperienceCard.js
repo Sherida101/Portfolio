@@ -58,9 +58,13 @@ class ExperienceCard extends Component {
             className="experience-card-description"
             style={{ color: theme.text }}
           >
-            {experience["description"].split("\n").map((item) => (
-              <p> {"\u273F " + item} </p>
-            ))}
+            {Array.isArray(experience.description)
+              ? experience.description.map((item, index) => (
+                  <p key={index}>{"\u273F " + item}</p>
+                ))
+              : experience.description
+                  .split("\n")
+                  .map((item, index) => <p key={index}>{"\u273F " + item}</p>)}
           </p>
         </div>
       </div>

@@ -7,18 +7,23 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackDevImg from "./FullStackDevImg";
 // import DBManagementImg from "./DBManagementImg";
 import GraphicDesignImg from "./GraphicDesignImg";
+import UIDesignImg from "./UIDesignImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
   else if (props.fileName === "FullStackDevImg")
     return <FullStackDevImg theme={props.theme} />;
+  else if (props.fileName === "UXDesignImg")
+    return <UIDesignImg theme={props.theme} />;
+  else if (props.fileName === "UIDesignImg")
+    return <UIDesignImg theme={props.theme} />;
   else if (props.fileName === "DBManagementImg")
     // return <DBManagementImg theme={props.theme} />;
     return (
       <img
-        width="500"
-        height="500"
+        width="400"
+        height="400"
         alt="Database icon"
         style={{ marginLeft: "150px" }}
         src={require("../../assets/images/database_img.png")}

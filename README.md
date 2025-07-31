@@ -55,7 +55,7 @@ To view a live example, **[click here](https://sherida101.github.io/Portfolio)**
 
 # Customise it to make your own portfolio ✏️
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
+In this project, there are basically 4 things that you need to change to customise this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
 
 ### package.json
 
@@ -91,7 +91,7 @@ You can change the personal information, experience, education, social media, ce
 
 ### Github Information
 
-You will find `git_data_fetcher.mjs` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
+You will find `git_data_fetcher.mjs` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organisations, Pinned projects etc.) from your github.
 If you open the file, you will see below component at the top of the file. You need to change only that component.
 
 ```javascript
@@ -116,7 +116,7 @@ Whenever you want to update the github related information on the website you ne
 ### Splash Logo
 
 Note here that if you click [my portfolio](https://sherida101.github.io/Portfolio/), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
-Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
+Therefore, this part of portfolio is not customisable. But don't worry we have a solution to this problem. You have below two alternatives:
 
 - If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
 - If you don't want Splash screen or you don't know how to design logo, then this option is for you

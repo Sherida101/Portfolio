@@ -11,7 +11,7 @@ const settings = {
 const seo = {
   title: "Aaliyah Providence's Portfolio",
   description:
-    "Aaliyah Providence is a recent Software Engineer graduate who has attained skills in website development, mobile application development and project management. Driven by passion, she takes pride in providing the best service and high quality software as possible.",
+    "Aaliyah Providence is a Software Engineer skilled in web and mobile application development and project management, with extensive experience. Passionate and detail-oriented, she is committed to delivering high-quality, user-focused software solutions.",
   og: {
     title: "Aaliyah Providence's Portfolio",
     type: "website",
@@ -19,20 +19,20 @@ const seo = {
   },
 };
 
-//Home Page
+// Home Page
 const greeting = {
   title: "Aaliyah Providence",
   logo_name: "AaliyahProvidence",
-  currentJobStatus: "Junior Software Developer",
+  currentJobStatus: "Research Software Engineer",
   subTitle:
-    "Full-stack developer with specialties in mobile and website application development as well as software design, project management and software testing.",
+    "Motivated Full-stack Developer with a solid foundation in mobile and web app development, software design, and project delivery. Proficient in Python, Java, and JavaScript(including Angular and React), with a focus on usability and functionality.",
   subTitle2:
-    "A quick learner with effective time management and efficient multi-tasking skills. Strong work ethic in a team or individual settings to drive product success and process efficiency as well as proficiency.",
-  cvLink:
-    "https://drive.google.com/file/d/11Tqv1aLKsZV7091TQAeEKqCr9CM8-uxU/view?usp=sharing",
+    "Certified in UX design and research by Google, bringing a user - first approach to development.Quick to learn, collaborative, and strong in problem - solving and time management.Seeking a role to grow technically while building impactful, user - centered digital tools.",
+  cvLink: "./assets/files/CV_Aaliyah_Providence.pdf",
+  // "https://drive.google.com/file/d/19ggw8FOTaTJ1uzJDc0CTnycf8SppZ5Yz/view?usp=sharing",
   portfolio_repository: "https://github.com/Sherida101/Portfolio",
   githubProfile: "https://github.com/Sherida101",
-  footer: "ASP's Portfolio 2022-2024 | Made with ReactJs",
+  footer: "Aaliyah Proividence's Portfolio 2022-2025 | Made with ReactJs",
 };
 
 const socialMediaLinks = [
@@ -183,6 +183,138 @@ const skills = {
         },
       ],
     },
+    // UX Design
+    {
+      title: "UX Design",
+      fileName: "UXDesignImg",
+      skills: [
+        "⚡ User research (interviews, surveys, ethnographic research)",
+        "⚡ Journey mapping and user personas",
+        "⚡ Wireframing (low- and mid-fidelity)",
+        "⚡ Usability testing and A/B testing",
+        "⚡ Information architecture and navigation design",
+        "⚡ User flows and interaction design",
+        "⚡ Accessibility and inclusive design",
+        "⚡ Empathy mapping and problem definition",
+        "⚡ Data synthesis and insight-driven design",
+        "⚡ Collaboration with product teams and stakeholders",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "devicon:figma",
+          style: {
+            color: "#ff7262",
+          },
+        },
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobe",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Google Forms",
+          fontAwesomeClassname: "devicon:google-wordmark",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    // UI Design
+    {
+      title: "UI Design",
+      fileName: "UIDesignImg",
+      skills: [
+        "⚡ Visual design and typography",
+        "⚡ Layout design (grids, spacing, alignment)",
+        "⚡ Design systems and component libraries",
+        "⚡ High-fidelity mockups and interactive prototypes",
+        "⚡ Responsive and adaptive design principles",
+        "⚡ Colour theory and accessibility (WCAG standards)",
+        "⚡ Branding consistency and visual storytelling",
+        "⚡ Handoff to developers (design-to-code workflow)",
+        "⚡ Attention to detail and pixel-perfect execution",
+        "⚡ Collaboration with UX designers and developers",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobe",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobe",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobe",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    // Mobile application development
+    {
+      title: "Mobile Application Development",
+      fileName: "MobileAppDevelopmentImg",
+      skills: [
+        "⚡ Build high-quality mobile user interface designs",
+        "⚡ Develop cross-platform applications which can be used on Apple iOS, Android and web",
+        "⚡ Integrate security measures, database management and memory allocation in app development",
+        "⚡ Competent in web development languages",
+        "⚡ Analyse business capabilities to optimise how the mobile application's visibility in the list of available applications of the same category",
+        "⚡ Competent in cyber security to secure information and make mobile applications safe to use",
+        "⚡ Practise Agile development as means of increasing the speed and efficiency of the development process through better delegation",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "logos:flutter",
+          style: {
+            color: "#027DFD",
+          },
+        },
+        {
+          skillName: "Swift",
+          fontAwesomeClassname: "logos:swift",
+          style: {
+            color: "#FFF",
+          },
+        },
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "logos:css-3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+      ],
+    },
     // Database Management
     {
       title: "Database Management",
@@ -275,102 +407,12 @@ const skills = {
           skillName: "Redis",
           fontAwesomeClassname: "logos:redis",
           style: {
-            color: "#326CE5",
+            color: "#ad2115",
           },
         },
       ],
     },
-    // Graphic Design
-    {
-      title: "Graphic Design",
-      fileName: "GraphicDesignImg",
-      skills: [
-        "⚡ Design attractive user interface for mobile applications",
-        "⚡ Build and customise logo designs, banners, flyers, menus, nutrition facts labels and decals",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GIMP",
-          fontAwesomeClassname: "devicon:gimp",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "KolourPaint",
-          fontAwesomeClassname: "bx:paint",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "PosterMyWall",
-          fontAwesomeClassname: "ic:outline-design-services",
-          style: {
-            color: "#87CEEB",
-          },
-        },
-      ],
-    },
-    // Mobile application development
-    {
-      title: "Mobile Application Development",
-      fileName: "MobileAppDevelopmentImg",
-      skills: [
-        "⚡ Build high-quality mobile user interface designs",
-        "⚡ Develop cross-platform applications which can be used on Apple iOS, Android and web",
-        "⚡ Integrate security measures, database management and memory allocation in app development",
-        "⚡ Competent in web development languages",
-        "⚡ Analyse business capabilities to optimise how the mobile application's visibility in the list of available applications of the same category",
-        "⚡ Competent in cyber security to secure information and make mobile applications safe to use",
-        "⚡ Practise Agile development as means of increasing the speed and efficiency of the development process through better delegation",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "logos:flutter",
-          style: {
-            color: "#027DFD",
-          },
-        },
-        {
-          skillName: "Swift",
-          fontAwesomeClassname: "logos:swift",
-          style: {
-            color: "#FFF",
-          },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS",
-          fontAwesomeClassname: "logos:css-3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-      ],
-    },
+
     // Project Management
     {
       title: "Project Management",
@@ -425,6 +467,45 @@ const skills = {
           fontAwesomeClassname: "logos:jira",
           style: {
             color: "#0052CC",
+          },
+        },
+      ],
+    },
+    // Graphic Design
+    {
+      title: "Graphic Design",
+      fileName: "GraphicDesignImg",
+      skills: [
+        "⚡ Design attractive user interface for mobile applications",
+        "⚡ Build and customise logo designs, banners, flyers, menus, nutrition facts labels and decals",
+      ],
+      softwareSkills: [
+        {
+          skillName: "GIMP",
+          fontAwesomeClassname: "devicon:gimp",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "KolourPaint",
+          fontAwesomeClassname: "bx:paint",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "PosterMyWall",
+          fontAwesomeClassname: "ic:outline-design-services",
+          style: {
+            color: "#87CEEB",
           },
         },
       ],
@@ -628,7 +709,9 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Secondments, Internships & Volunteerism",
   description:
-    "Owing to Miss Providence's endeavours, she has developed professional aptitude, strengthened her personal character and sharpened her skills.\n In addition, she has developed soft skills such as being a problem-solver, effective communicator, a team player reliable and resilient.",
+    "Through her experiences, Jane Doe has developed strong professional aptitude, strengthened her character, and sharpened her technical skills." +
+    "\nShe has also cultivated key soft skills, including problem- solving, effective communication, teamwork, reliability and resilience.",
+
   header_image_path: "experience.svg",
   sections: [
     // Work
@@ -636,14 +719,47 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Research Software Engineer",
+          company: "Earlham Institute",
+          company_url: "https://www.earlham.ac.uk/",
+          logo_path: "earlham_institute_logo.png",
+          duration: "December 2024 - PRESENT",
+          location: "Norwich, Norfolk, England, United Kingdom",
+          description: [
+            "Contributed to the development of the Collaborative OPen Omics (COPO) platform, a metadata brokering service supporting projects such as Aquatic Symbiosis Genomics (ASG), Darwin Tree of Life (DToL), the European Reference Genome Atlas (ERGA) and ERGA Pilot.",
+            "Responded to bug reports and feature requests from stakeholders such as Sanger Institute, Biodiversity Genomics Europe (BGE) project and users, implementing solutions to enhance platform functionality and user experience.",
+            "Designed and delivered APIs and user-facing tools enabling researchers to annotate metadata, deposit datasets in public repositories like BioImage Archive (BIA), European Nucleotide Archive (ENA) and Zenodo and link data to publications.",
+            "Managed software solutions for tracking and lifecycle management of life science data across the COPO ecosystem.",
+            "Used Celery for distributed task queue management and background job processing in a Python web application.",
+            "Reviewed Git pull requests to maintain code quality and suggest improvements prior to integration.",
+            "Designed and implemented data structures and user interfaces to represent life science metadata, including reference genomes and marine species.",
+            "Promoted Findability, Accessibility, Interoperability and Reusability (FAIR) data principles by developing scalable deposition tools, contributing to best practices, and delivering training at national and international scientific events.",
+            "Diagnosed performance issues and implemented fixes to ensure stable, responsive service delivery across the web platform.",
+            "Used command-line tools in UNIX/Linux environments for scripting, automation, text processing, file management and system operations like bash shell environments and grep to search text and using patterns",
+          ],
+
+          color: "#0879bf",
+        },
+        {
           title: "Junior Software Developer",
           company: "Earlham Institute",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "https://www.earlham.ac.uk/",
           logo_path: "earlham_institute_logo.png",
-          duration: "February 2022 - PRESENT",
-          location: "Norwich, Norfolk, United Kingdom",
-          description:
-            "Assisted the Collaborative Open Omics (COPO) research e-Infrastructure team in the Digital Biology department by developing code to test and maintain the current website service\nSupported internal and external collaborators in the use of the service\n Assisted with updates to the main project website and associated documentation\n Supported existing COPO code by writing unit and integration tests\nMaintained quality assurance of existing COPO pipelines\n Produced content to promote COPO to the research community through the COPO project web pages and social media account\n Leveraged internal stakeholders, project client and supervisor feedback as well as data to formulate a plan of action as well as to inform and guide website application development\n Managed website application with Redis, PostgreSQL and MongoDB",
+          duration: "February 2022 - December 2024",
+          location: "Norwich, Norfolk, England,United Kingdom",
+          description: [
+            "Contributed to the maintenance and testing of the Collaborative OPen Omics (COPO) metadata platform, a Python Django-based application, by developing unit and integration tests.",
+            "Assisted the research infrastructure team in improving system reliability and service continuity.",
+            "Supported internal and external users, troubleshooting issues and ensuring smooth adoption of the platform.",
+            "Updated project documentation and website content to improve usability and clarity.",
+            "Maintained and improved code quality by adhering to best practices, refining conventions, and conducting code reviews within an existing collaborative project.",
+            "Maintained quality assurance for COPO data pipelines, identifying and resolving issues proactively.",
+            "Engaged with the research community through seminars and poster presentations, promoting COPO.",
+            "Incorporated feedback from stakeholders and users to guide usability of the web application.",
+            "Designed and consumed RESTful APIs to enable communication between microservices and client applications.",
+            "Managed and queried backend data using MongoDB to support omics data content, PostgreSQL for user authentication and details and Redis for caching and session management.",
+            "Developed interactive visualisations of brokered metadata using D3.js, including world maps, pie charts, bar and line graphs with SVG-based graphics.",
+          ],
           color: "#0879bf",
         },
         {
@@ -651,10 +767,13 @@ const experience = {
           company: "Cupid Delights",
           company_url: "https://cupid-delights.netlify.app/",
           logo_path: "cupidDelights_logo.png",
-          duration: "October 2021 - January 2022",
+          duration: "October 2021 - February 2022",
           location: "United Kingdom",
-          description:
-            "Created business designs like business card, nutrition facts labels for the various items sold by the business, business banner, food menu flyer, food Christmas special flyer, review posts, notices, window decal and other flyers that market the business\n Compiled videos to promote the business like a video that advertises the locations where the business' items can be purchased and videos that advertise the processes involved or how to make the food items sold by Cupid Delights\n Attached Cupid Delights' logo to the food videos and photos captured/produced by Cupid Delights",
+          description: [
+            "Designed a range of branded marketing materials including business cards, nutrition labels, banners, food menus, flyers (sales, holiday specials), review posts, reheating guides, notices and window decals.",
+            "Produced promotional videos showcasing product availability, preparation processes, and behind-the-scenes content.",
+            "Added branding elements (e.g. logo overlays) to photos and videos for consistency and recognition across digital platforms.",
+          ],
           color: "#4285F4",
         },
         {
@@ -665,8 +784,12 @@ const experience = {
           logo_path: "krisAnCharlesInvestments_logo.png",
           duration: "Jun 2019 - Aug 2019",
           location: "Kingston, Jamaica",
-          description:
-            "Filed cheque stubs, bank statements and reconciliation reports\n Posted loan payment payroll to customers' accounts\n Updated QuickBooks with customers' loan disbursements, refund and rebate information\n Reconciled bank statements to verify that the amount of cash reported by one's company or company books is consistent with the amount of cash shown in bank records",
+          description: [
+            "Filed cheque stubs, bank statements and reconciliation reports in an organised and timely manner",
+            "Processed loan payment payroll entries and updated customer accounts accordingly",
+            "Maintained financial records in QuickBooks, including loan disbursements, refunds and rebates",
+            "Performed bank reconciliations to ensure consistency between internal records and bank statements",
+          ],
           color: "#0879bf",
         },
         {
@@ -677,7 +800,7 @@ const experience = {
           duration: "Dec 2015 \u002d Aug 2017; May 2018 \u002d Aug 2018)",
           location: "Kingstown, St. Vincent and the Grenadines",
           description:
-            "Organised the database of members who had dormant accounts\n Processed deposits and withdrawals requests of members",
+            "Organised the database of members who had dormant accounts\n Processed the deposits and withdrawals requests of members",
           color: "#9b1578",
         },
         {
@@ -687,8 +810,14 @@ const experience = {
           logo_path: "searchlight_logo.png",
           duration: "Oct 2015 \u002d Nov 2015",
           location: "Kingstown, St. Vincent and the Grenadines",
-          description:
-            "Effectively, pleasantly and efficiently communicated with and dealt with customer queries either in person, over the phone or via email, provided them with information on advertising rates\n Dealt with and resolved customer complaints in a professional and polite manner\n Answered telephone calls and directed calls to appropriate parties (or took messages as appropriate) within the organisation\n Provided excellent organisational and secretarial skills to type articles submitted for publication\n Maintained a customer-focused approach whilst providing excellent verbal and communication skills",
+          description: [
+            "Communicated effectively and professionally with customers in person, by phone and via email; provided information on advertising rates.",
+            "Handled and resolved customer complaints politely and efficiently, maintaining a high standard of service.",
+            "Answered and directed telephone calls to appropriate staff members or took accurate messages when necessary.",
+            "Typed and formatted articles for publication, demonstrating strong secretarial and organisational skills.",
+            "Maintained a customer-focused approach with excellent verbal and written communication skills.",
+          ],
+
           color: "#fc1f20",
         },
         {
@@ -699,13 +828,15 @@ const experience = {
           logo_path: "healthyLifestyles_logo.png",
           duration: "Sept 2015 \u002d Oct 2015",
           location: "Kingstown, St. Vincent and the Grenadines",
-          description:
-            "Organised appointments, meetings, papers and office items" +
-            "\n Drastically increased office efficiency by spearheading a “go digital” initiative for most planning and paperwork" +
-            "\n Assisted with new client enquiry calls in a professional manner" +
-            "\n Demonstrated confidential administration when copying, scanning, binding and collating documents" +
-            "\n Courteously greeted and corresponded with clients and other visitors during their sojourn at the company's office" +
-            "\n Undertook any other reasonable duties, commensurated with the level of the post to ensure the smooth operation of the company",
+          description: [
+            "Managed appointments, meetings, and office supplies to maintain day-to-day efficiency",
+            "Improved administrative workflows by leading a successful “go digital” transition for planning and paperwork",
+            "Handled new client enquiries professionally via phone and in person",
+            "Maintained confidentiality while copying, scanning, binding and collating sensitive documents",
+            "Welcomed and assisted clients and visitors, ensuring a professional and friendly experience",
+            "Performed additional duties as required to support the smooth operation of the office",
+          ],
+
           color: "#fc1f20",
         },
       ],
@@ -715,19 +846,20 @@ const experience = {
       title: "Secondments",
       experiences: [
         {
-          title: "Software Developer Secondee",
+          title: "Software Developer",
           company: "European Bioinformatics Institute | EMBL-EBI ",
           company_url: "https://www.embl.org",
           logo_path: "ebi_logo.png",
           duration: "March 2023",
           location:
             "Wellcome Genome Campus, Hinxton, Cambridgeshire, United Kingdom",
-          description:
-            "Gained insights about the European Nucleotide Archive (ENA), ENA's role in the International Nucleotide Sequence Database Collaboration (INSDC), ENA presentation and retrieval guides, ENA portal and browser application programming interface (APIs), submission guides as well as services" +
-            "\nGained an awareness of ENA comms and training, standard and checklists, ENA checklist developments for a few projects, collaborations and communication methods of the two teams that comprise ENA - Data Co-ordination Archiving team and Archiving and Infrastructure Technology team" +
-            "\nAttended a few meetings that revolve around development within presentation services like ENA Content team meetings and ENA user support review meetings" +
-            "\nAttended a few meetings that revolve around ENA's support, standards and submission services" +
-            "\nUndertook development tasks that used Angular and Typescript to display content on the ENA browser and ENA Webin portal",
+          description: [
+            "Developed user interface (UI) features for the European Nucleotide Archive (ENA) Webin Portal using Angular and TypeScript, including support for custom fields in downloadable templates and improved access to public records.",
+            "Implemented display formats for genome assembly accessions (e.g. concatenated or separated FASTA, text) and chromosome count views within the ENA browser presentation services.",
+            "Gained practical understanding of ENA's data submission and retrieval systems, including its APIs, presentation guides and integration in the International Nucleotide Sequence Database Collaboration (INSDC) collaboration.",
+            "Attended and contributed to team meetings on ENA content, user support, submission services, and development planning across Data Co-ordination & Archiving and Infrastructure Technology teams.",
+            "Acquired familiarity with ENA submission standards, checklists, training materials and external collaboration protocols.",
+          ],
 
           color: "#ee3c26",
         },
@@ -744,8 +876,17 @@ const experience = {
           logo_path: "loongo_CompanyLogo.png",
           duration: "Mar 2021 \u002d Jun 2021",
           location: "Suzhou, Jiangsu, China",
-          description:
-            "Assisted in the design and development of a MVC ASP.NET course learning management website application using C# programming language\nLeveraged internal stakeholders, project client and supervisor feedback as well as data to formulate a plan of action as well as to inform and guide the website application development\nResponsible for implementing multilingual and notification features using global resources, SignalR, JQuery, Ajax and MSSQL\nDefined and documented operational procedures and project management plan\nAnalysed company and client's requirements in order to produce recommendations, technical design documents and time/cost estimates\nProvided unambiguous, detailed and accurate status reports to project supervisor, project client, internship co-ordinator and team members\nLed the intern team through the software design, development testing and release cycle to the delivery phase\nEnsured that the delivery of the software solution aligned well with business goals and user experience optimisation",
+          description: [
+            "Contributed to the design and development of a course management web application using ASP.NET MVC and C#.",
+            "Collaborated with stakeholders and project supervisors to gather feedback, inform decisions and guide development priorities.",
+            "Implemented multilingual support and notification features using Global Resources, SignalR, jQuery, Ajax and MSSQL.",
+            "Drafted operational procedures and a detailed project management plan to support project execution.",
+            "Conducted requirements analysis and produced technical documentation, recommendations and time as well as cost estimates.",
+            "Delivered clear, detailed progress reports to supervisors, clients and team members.",
+            "Led a team of interns through the full software development lifecycle - from design and implementation to testing and deployment.",
+            "Ensured the final product aligned with business goals and provided an optimised user experience.",
+          ],
+
           color: "#ee3c26",
         },
       ],
@@ -761,8 +902,14 @@ const experience = {
           logo_path: "church_logo.png",
           duration: "November 2022 - PRESENT",
           location: "Norwich, United Kingdom",
-          description:
-            "Ensured that microphones, cameras, Microsoft PowerPoint slides and videos are turned on, issue-free or are correctly formatted before a church service/event begins\n Controlled/Adjusted cameras in the room\n Controlled the video feed that is projected onto the screens and delivered to the livestream and Teradeck (Vidiu) using the Roland video mixer\n Controlled/Adjusted the volume levels of the audio of the microphones and YouTube livestreams using the Soundcraft UI audio mixer\n Controlled the lights that illuminates the front of the church room to give a better lighting on the stage and on the church band\n Troubleshooted and resolved common issues like when there is no sound coming from the computer, headset microphone or source",
+          description: [
+            "Ensured microphones, cameras, PowerPoint slides, and videos were properly set up, formatted, and issue-free before services and events.",
+            "Operated and adjusted cameras during events to capture live footage.",
+            "Managed video feeds projected onto screens and streamed via livestream and Teradek (Vidiu) using a Roland video mixer.",
+            "Controlled and balanced audio levels for microphones and YouTube livestreams using the Soundcraft UI audio mixer.",
+            "Managed stage lighting to enhance visibility and ambiance for the band and speakers.",
+            "Troubleshot and resolved common technical issues, including audio source problems and equipment connectivity.",
+          ],
           color: "#181717",
         },
         {
@@ -770,10 +917,16 @@ const experience = {
           company: "Island Scholars Incorporation",
           company_url: "https://islandscholars.org/",
           logo_path: "island_scholars_logo.png",
-          duration: "October 2022 - PRESENT",
+          duration: "October 2022 - November 2022",
           location: "New Jersey, United States of America",
-          description:
-            "Further developed the front-end of a Wordpress-based website application that offers scholarships and mentorship to persons by optimising user experience,revising the contact form, amending carousel images\nIn-depth understanding of developing and maintaining a website accurately according to client's requirements\n Problem-solved and fixed bugs in the existing project\nRefactored and optimised existing code\n First-class organisational skills with the ability to prioritise, multitask and manage time effectively\nBasic understanding of UX and UI principles\nStrong attention to detail and creative problem-solving skills\nExcellent interpersonal and communication skills with client\n Worked autonomously and used initiative to complete project tasks utilising WooCommerce, Advanced Custom Fields, Custom Post Types, custom WordPress themes and plugins as well as jQuery, HTML, CSS and JS",
+          description: [
+            "Improved the front-end of a WordPress-based scholarship and mentorship platform by optimising user experience, revising the contact form and updating carousel images.",
+            "Ensured accurate implementation of client requirements through close attention to detail and effective communication.",
+            "Debugged and resolved issues in the existing codebase; refactored and optimised legacy code for better performance.",
+            "Applied basic UX/UI principles to enhance visual layout and user interactions.",
+            "Collaborated with the client and worked independently to deliver project milestones on time.",
+            "Utilised tools and technologies including WooCommerce, Advanced custom fields, post types, themes as well as plugins, jQuery, HTML, CSS, and JavaScript.",
+          ],
           color: "#181717",
         },
         {
@@ -783,8 +936,13 @@ const experience = {
           logo_path: "parkrun_logo.png",
           duration: "July 2022 - PRESENT",
           location: "Norwich, United Kingdom",
-          description:
-            "Executed roles on various occasions at a weekly 5km community event like  setting up or closing the course event, checking the course event, scanning barcodes, handing out finish tokens to finishers and providing support as well as encouragement to walkers whilst ahead of the Tail Walker but behind those who are running\n Respected Parkrun's principles\n Acted kind and respectful\n Acted reliable, responsible and attentive\n Gained social connections, knowledge, skills, confidence and motivation\n Improved physical and mental strength",
+          description: [
+            "Performed various roles at a weekly 5km community event, including setting up and closing the course, checking the route, scanning barcodes, and handing out finish tokens to participants.",
+            "Provided support and encouragement to walkers positioned ahead of the Tail Walker but behind the runners.",
+            "Consistently upheld Parkrun's principles by acting with kindness, respect, reliability, and attentiveness.",
+            "Developed social connections, gained new skills, and boosted confidence and motivation.",
+            "Contributed to improving physical and mental well-being through active community involvement.",
+          ],
           color: "#181717",
         },
         {
@@ -794,8 +952,13 @@ const experience = {
           logo_path: "github_logo.png",
           duration: "September 2021 - PRESENT",
           location: "",
-          description:
-            "Actively built, tested and published open source projects to GitHub both independently and collaboratively\nProjects included bug fixes and proper documentation",
+          description: [
+            "Actively built, tested, and published open source projects on GitHub, working both independently and collaboratively with other contributors.",
+            "Contributed bug fixes, implemented new features, and maintained comprehensive documentation to improve project usability and sustainability.",
+            "Utilized version control workflows (Git/GitHub) and collaborated through pull requests, code reviews, and issue tracking.",
+            "Engaged with open source communities to gather feedback and foster effective teamwork.",
+            "Projects spanned programming languages such as JavaScript, React, Python, demonstrating versatility and commitment to quality code.",
+          ],
           color: "#181717",
         },
       ],
@@ -807,8 +970,14 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "The majority of Miss Providence's projects are open source and uses Object-Oriented technologies as well as the latest technology tools." +
-    "\nMiss Providence's best experience is building websites and mobile applications and connecting them to databases.",
+    "Most of Miss Providence's projects are open source and developed using object-oriented programming principles alongside modern technology tools." +
+    "\nHer strongest experience lies in building responsive web and mobile applications, with a focus on integrating them with databases and ensuring both usability and functionality.",
+  otherProjectsOverview:
+    "To explore her other work, see the portfolios and projects linked below:",
+  otherProjects: {
+    "UX design projects and case studies":
+      "https://sites.google.com/view/asp-uxui-portfolio/",
+  },
   avatar_image_path: "projects_image.svg",
 };
 
@@ -825,7 +994,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "profile_image1.png",
     description:
-      "Aaliyah Providence is available on social media platforms - LinkedIn and GitHub.\nHer proficiency in software testing, website development, mobile application development and project management will transform one's ideas into life.",
+      "Aaliyah Providence is active on LinkedIn and GitHub, where you can explore her professional background and projects. With expertise in software testing, web and mobile application development, and project management, she is passionate about bringing ideas to life through technology.",
   },
   addressSection: {
     title: "Address",

@@ -15,6 +15,7 @@ import ProjectsImg from "./ProjectsImg";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
+    const otherProjectsEntries = Object.entries(projectsHeader.otherProjects);
     return (
       <div className="projects-main">
         <Header theme={theme} />
@@ -42,6 +43,26 @@ class Projects extends Component {
                   {projectsHeader["description"].split("\n").map((item) => (
                     <p> {item} </p>
                   ))}
+
+                  {/* Other Projects */}
+                  {otherProjectsEntries.length > 0 && (
+                    <div className="other-projects">
+                      <p>{projectsHeader["otherProjectsOverview"]}</p>
+                      <ul>
+                        {otherProjectsEntries.map(([title, url]) => (
+                          <li key={title}>
+                            <a
+                              href={url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {title}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </p>
               </div>
             </div>
