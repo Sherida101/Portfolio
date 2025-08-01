@@ -3,7 +3,7 @@ name: Pull Request Creation
 on:
   push:
     branches:
-      - all
+      - main
 
 jobs:
   pullRequestRelease:
@@ -13,32 +13,14 @@ jobs:
         id: get_pull_requests
         with:
           query: |
-            query user(login: "ashutosh1919") {
+            query user(owner: "Sherida101", name: "Portfolio") {
               pullRequests(last: 100, orderBy: {field: CREATED_AT, direction: DESC}) {
                 totalCount
                 nodes {
                   title
                   url
                   state
-                  mergedBy {
-                    avatarUrl
-                    url
-                    login
-                  }
                   createdAt
-                  number
-                  changedFiles
-                  additions
-                  deletions
-                  baseRepository {
-                    name
-                    url
-                    owner {
-                      avatarUrl
-                      login
-                      url
-                    }
-                  }
                 }
                 pageInfo {
                   hasNextPage
@@ -48,4 +30,3 @@ jobs:
             }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: "echo 'Pull Requests Data: ${{ steps.get_latest_release.outputs.data }}'"
