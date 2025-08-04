@@ -1,0 +1,8 @@
+src/assets/
+build/
+README.md
+.lighthouserc.js
+**/*.min.js
+**/*.css
+src/**/*.css
+*.min.js

@@ -1,0 +1,27 @@
+{
+  "closed": 1,
+  "data": [
+    {
+      "id": "I_kwDOEHWT-M5YeP5_",
+      "closed": true,
+      "title": "Expandable/Collapsible Menu on Section Headings",
+      "createdAt": "2022-12-08T10:42:47Z",
+      "url": "https://github.com/elixir-europe/rdmkit/issues/1113",
+      "number": 1113,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "rdmkit",
+        "url": "https://github.com/elixir-europe/rdmkit",
+        "owner": {
+          "login": "elixir-europe",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18418326?v=4",
+          "url": "https://github.com/elixir-europe"
+        }
+      }
+    }
+  ],
+  "open": 0,
+  "totalCount": 1
+}

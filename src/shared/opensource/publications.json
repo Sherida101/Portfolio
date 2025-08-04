@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": "122536027",
+      "name": "COPO - Managing sample metadata for biodiversity: considerations from the Darwin Tree of Life project [version 3; peer review: 3 approved]",
+      "type": "Publication",
+      "url": "",
+      "description": "",
+      "createdAt": "2024-01-01",
+      "note": ""
+    },
+    {
+      "id": "161278747",
+      "name": "COPO - Managing sample metadata for biodiversity: considerations from the Darwin Tree of Life project",
+      "type": "Publication",
+      "url": "",
+      "description": "",
+      "createdAt": "2024-01-01",
+      "note": ""
+    },
+    {
+      "id": "139611034",
+      "name": "COPO - Managing sample metadata for biodiversity: considerations from the Darwin Tree of Life project",
+      "type": "Publication",
+      "url": "",
+      "description": "",
+      "createdAt": "2023-01-01",
+      "note": ""
+    },
+    {
+      "id": "122538082",
+      "name": "Managing sample metadata for biodiversity: considerations from the Darwin Tree of Life project",
+      "type": "Publication",
+      "url": "",
+      "description": "",
+      "createdAt": "2022-01-01",
+      "note": ""
+    }
+  ],
+  "lastFetched": "2025-08-04T00:04:39.068Z"
+}

@@ -1,0 +1,15 @@
+{
+  "cSpell.words": [
+    "Defense",
+    "Organised"
+  ],
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  },
+  "javascript.validate.enable": false,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "terminal.integrated.ignoreBracketedPasteMode": true,
+  "typescript.validate.enable": false
+}

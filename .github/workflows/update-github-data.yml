@@ -1,0 +1,37 @@
+name: Update GitHub Open Source Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Every day at 6:00 UTC
+  workflow_dispatch:    # Allow manual run
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run data fetcher
+        env:
+          GitHub_Token: ${{ secrets.REPO_READ_ONLY_ACCESS_TOKEN }}
+          GitHub_Username: ${{ secrets.REPO_USERNAME }}
+        run: node git_data_fetcher.mjs
+
+      - name: Commit and push updated JSON files
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          git add src/shared/opensource/*.json
+          git commit -m "🔄 Update GitHub data files"
+          git push
+        continue-on-error: true

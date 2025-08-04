@@ -1,0 +1,155 @@
+{
+  "data": [
+    {
+      "id": "R_kgDOPQdjKw",
+      "name": "ResuVue",
+      "createdAt": "2025-07-21T21:39:57Z",
+      "url": "https://github.com/Sherida101/ResuVue",
+      "description": "A smart, simple resume builder powered by modern web technology.",
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "id": "R_kgDOOb7FIw",
+      "name": "Rhythmo",
+      "createdAt": "2025-04-18T19:04:32Z",
+      "url": "https://github.com/Sherida101/Rhythmo",
+      "description": "A tool to help users track their daily habits, either via the command line or a web interface. Syncs data between both.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "logos-docker-icon"
+        },
+        {
+          "name": "Go",
+          "iconifyClass": "logos-go"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGnCkbw",
+      "name": "GoodBudget",
+      "createdAt": "2022-01-01T17:34:55Z",
+      "url": "https://github.com/Sherida101/GoodBudget",
+      "description": "A budget monitor or expense tracker Flutter application that persists data with Hive NoSQL database. This cross platform application is available on Android, iOS & Web. Both expenses and income are monitored.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Kotlin",
+          "iconifyClass": "logos-kotlin-icon"
+        },
+        {
+          "name": "Ruby",
+          "iconifyClass": "logos-ruby"
+        },
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGl_O8w",
+      "name": "SolesMates",
+      "createdAt": "2021-12-28T14:22:02Z",
+      "url": "https://github.com/Sherida101/SolesMates",
+      "description": "A Flutter designed application that provides comfortable footwear at a great value.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Kotlin",
+          "iconifyClass": "logos-kotlin-icon"
+        },
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOGsQ2rQ",
+      "name": "iCare",
+      "createdAt": "2022-01-17T22:27:39Z",
+      "url": "https://github.com/Sherida101/iCare",
+      "description": "iCare is an open-source hospital management website system. It uses Python Django and enables patients, doctors and administrators to perform functions such as viewing list of discharged patients, book appoints and generate invoices.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOH1OdjQ",
+      "name": "YumMealPrep",
+      "createdAt": "2022-08-16T23:29:11Z",
+      "url": "https://github.com/Sherida101/YumMealPrep",
+      "description": "A daily, weekly and monthly meal planning app as well as a receipt book app",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Kotlin",
+          "iconifyClass": "logos-kotlin-icon"
+        },
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "Dart",
+          "iconifyClass": "logos-dart"
+        },
+        {
+          "name": "C++",
+          "iconifyClass": "logos-c-plusplus"
+        },
+        {
+          "name": "C",
+          "iconifyClass": "logos-c"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    }
+  ]
+}

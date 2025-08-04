@@ -1,0 +1,89 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+/build
+.pnp.js
+
+# testing
+/coverage
+
+# environment variables
+/vars
+
+# production
+/build
+/dist
+.next
+.out
+
+# misc
+.DS_Store
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+/coverage
+
+# editor
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ESLint
+.eslintcache
+
+# Babel
+.cache/
+
+# Parcel
+.cache
+.parcel-cache
+
+# TypeScript
+*.tsbuildinfo
+
+# next.js export
+/export/
+
+# vercel
+.vercel
+
+# Netlify
+.netlify
+
+# firebase
+.firebase
+
+# storybook
+out/
+storybook-static/
+
+# local dev databases
+*.sqlite
+*.db
+
+# Local serverless emulators
+.local/
+
+# Lock file
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
